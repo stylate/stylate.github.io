@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+	background: #E7E0DF;
+}
+
+#banner {
+	position: fixed;
+	left: 50%;
+	width: 500px;
+	height: 50px;
+	background: #2FCD2C;
+	display: inline;
+	opacity: 0.5;
+	font: normal 30px/60px 'Roboto';
+	text-align: center;
+	color: #F8F8FF;
+}
+
+h2 {
+	font: normal 35px 'Roboto';
+	color: #2FCD2C;
+}
+
+p {
+	font: normal 15px 'Roboto';
+}
+
+
+
