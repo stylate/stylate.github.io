@@ -1,30 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 body {
-	background: #E7E0DF;
-}
-
-#banner {
-	position: fixed;
-	left: 50%;
-	width: 500px;
-	height: 50px;
-	background: #2FCD2C;
-	display: inline;
-	opacity: 0.5;
-	font: normal 30px/60px 'Roboto';
-	text-align: center;
-	color: #F8F8FF;
-}
-
-h2 {
-	font: normal 35px 'Roboto';
-	color: #2FCD2C;
+	background: #C2C0C0;
+	margin: 0 auto;
+	max-width: 50em;
+	line-height: 1.15;
+	padding: 4em 1em;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	color: #555;
 }
 
 p {
-	font: normal 15px 'Roboto';
+	text-indent: 75px;
 }
 
 
+title {
+	margin-top: 1em;
+	padding-top: 1em;
+	font-size: 2.5em;
+	font-weight: bold;
+}
 
