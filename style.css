@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 body {
+	display: none;
 	background: #FAF9FA;
 	line-height: 1.55;
 	font-family: 'Roboto';
@@ -9,7 +10,7 @@ body {
 	color: #555;
 }
 
-#wrapper {
+.wrapper {
 	max-width: 45em;
 	padding: 3em;
 	margin-left: 25%;
@@ -17,6 +18,8 @@ body {
 	padding-left: 50px;
 	overflow: hidden;
 }
+
+#copy {font-size:10px;}
 
 #sidebar {
 	color: #555;
@@ -29,8 +32,11 @@ body {
 
 }
 
-.copy {font-size:10px;}
-
-a {text-decoration: none;}
+a {text-decoration: none; color: #555;}
 a:hover {color:#FFD1DC;}
 
+img {
+	border-radius: 8px;
+	width: 30%;
+	height: 30%;
+}
