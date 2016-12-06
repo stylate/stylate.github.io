@@ -6,18 +6,13 @@ body {
 	line-height: 1.55;
 	font-family: 'Roboto';
 	font-weight: 350;
+	font-size: 16px;
 	text-align: justify;
 	color: #555;
 }
 
-.wrapper {
-	max-width: 45em;
-	padding: 3em;
-	margin-left: 25%;
-	margin-top: 4%;
-	padding-left: 50px;
-	overflow: hidden;
-}
+a {text-decoration: none; color: #555;}
+a:hover {color:#FFD1DC;}
 
 #copy {font-size:10px;}
 
@@ -32,11 +27,38 @@ body {
 
 }
 
-a {text-decoration: none; color: #555;}
-a:hover {color:#FFD1DC;}
+.wrapper {
+	max-width: 45em;
+	padding: 3em;
+	margin-left: 25%;
+	margin-top: 4%;
+	padding-left: 50px;
+	overflow: hidden;
+}
 
-img {
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.movie {
 	border-radius: 8px;
 	width: 30%;
 	height: 30%;
 }
+
+.project {
+	border-radius: 8px;
+	width: 100%;
+	height: 20%;
+}
+
+.portfolio {
+	border-radius: 8px;
+	width: 32.9%;
+	height: 32.9%;
+}
+
+
