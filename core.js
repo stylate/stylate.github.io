@@ -8,6 +8,11 @@ $(document).ready(function() {
 		$("body").fadeOut("slow", redirect);
 	});
 
+	$("img").hover(function() {
+		
+
+	});
+
 	function redirect() {
 		window.location = newLocation;
 	}

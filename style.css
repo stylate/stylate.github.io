@@ -10,6 +10,9 @@ body {
 	color: #555;
 }
 
+a {text-decoration: none; color: #555;}
+a:hover {color:#FFD1DC;}
+
 .wrapper {
 	max-width: 45em;
 	padding: 3em;
@@ -31,9 +34,6 @@ body {
 	text-align: right;
 
 }
-
-a {text-decoration: none; color: #555;}
-a:hover {color:#FFD1DC;}
 
 img {
 	border-radius: 8px;
