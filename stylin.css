@@ -1,10 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+@import url("proxima-nova.css");
 
 body {
 	display: none;
 	background: #FAF9FA;
 	line-height: 1.55;
-	font-family: 'Roboto';
+	font-family: 'Proxima Nova';
 	font-weight: 350;
 	font-size: 16px;
 	text-align: justify;
