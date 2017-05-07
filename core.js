@@ -1,15 +1,17 @@
 $(document).ready(function() {
-	$("body").css("display", "none");
+	// fade in
+	/*$("body").css("display", "none");
 	$("body").fadeIn("slow");
+	*/
 
+	// fade out
 	$("a").click(function(event) {
 		event.preventDefault();
 		newLocation = this.href;
-		$("body").fadeOut("slow", redirect);
+		$("p").fadeOut("slow", redirect);
 	});
 
 	$("img").hover(function() {
-		
 
 	});
 
@@ -17,6 +19,7 @@ $(document).ready(function() {
 		window.location = newLocation;
 	}
 });
+
 
 /*
 	notes for website:

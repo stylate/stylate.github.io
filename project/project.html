@@ -3,33 +3,45 @@
 	this is totally not my first website :^) -->
 	<head>
 		<link rel="stylesheet" type="text/css" href="../stylin.css"/>
+		<link rel="stylesheet" type="text/css" href="../animate.css"/>
+		<link rel="stylesheet" type="text/css" href="../icons/css/font-awesome.css"/>
 		<link rel="icon" href="http://www.beautycolorcode.com/f9f8fa-2880x1800.png"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<title>projects</title>
 	</head>
-	<body>
+	<body class="animated fadeInLeft">
 		<div class=wrapper>
 		<div id=sidebar>
+			<a class=sidebar style="font-size:24px">alan nguyen</a><br>
 			<a href="../index.html" class=sidebar>home</a><br>
-			<a href="../film/film.html" class=sidebar>film</a><br>
 			<a href="project.html" class=sidebar>projects</a><br>
-			<a href="../photo/photo.html" class=sidebar>photo</a><br>
+			<a href="../film/film.html" class=sidebar>film</a><br>
+			<!-- <a href="../photo/photo.html" class=sidebar>photo</a><br> -->
+
+			<a href="http://facebook.com/nalan296"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
+			<a href="http://instagram.com/alanhoodie"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a>
+			<a href="http://github.com/stylate"><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>
+			<a href="http://letterboxd.com/carbine/"><i class="fa fa-film fa-fw" aria-hidden="true"></i></a>
+			<a href="mailto:nguyenalan@berkeley.edu"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
 		</div>
 	<h1>Projects</h1>
-	<p>In my spare time, I've been self-studying concepts regarding intermediate statistics and machine learning. Here, you will see a portfolio of what I've done so far. I've recently started programming this year, so there will be more projects to come!</p>
+	<p>Listed below is my collection of side projects that I've participated in.</p>
 
 	<h2>Discord</h2>
 	<table width=100%><tr>
 	<td><img src="photos/discord.png" class=project></td>
 	<td style="padding-left: 5%" valign=top><p>I built an interactive bot, written in Python, intended for use on the application <b>Discord.</b> The bot joins a channel of its choice and can interact with guests by playing Hangman, Magic 8 Ball, Guessing Game, and more. It also gathers random images from Google and posts them in the channel by request.</p></td></tr></table>
 
-	<h2>Reddit</h2>
+	<h2>Blue Lobster</h2>
 	<table width=100%><tr>
 	<td><img src="photos/reddit.png" class=project></td>
 	<td style="padding-left:5%" valign=top><p>I helped write a <b>Reddit</b> bot in Python. It processes Reddit's comment database, formatted by SQLite, and then learns how to create original content from such by using recurrent neural networks and more specifically a Sequence-to-Sequence model, given both the TensorFlow and PRAW API.</p></td></tr></table>
 
-	<h2>restock.</h2>
-	<p>I created a script that notifies me automatically by e-mail if there is any change in a given website. I originally used this in order to keep track of sneaker and limited clothing updates regarding several brands.</p>
+	<h2>AudioCrawler</h2>
+	<p><i>AudioCrawler</i> is a ML application that takes music data (through spectroscopy graphs) and genres as input in order to classify future song inputs based on genre. I worked on the back-end with Keras, Python, and TensorFlow, as well as collected music data.</p>
+
+	<h2>VacationPlanner</h2>
+	<p>In De Anza College's <i>Data Abstraction and Structures</i>, I participated in a group project that demonstrated the class's knowledge of hash tables, binary search trees, and stacks. In C++, I worked on the hash table, user and file I/O, managers (insert, delete, list, search), and overall design.</p>
 	</div>
 	<script src="../core.js"></script>
 	</body>
