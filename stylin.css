@@ -1,11 +1,11 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url(https://fonts.googleapis.com/css?family=Muli|Open%20Sans);
 
 
 body {
 	/*display: none;*/
 	background: #FAF9FA;
 	line-height: 1.55;
-	font-family: 'Open Sans';
+	font-family: 'Muli', serif;
 	font-weight: 350;
 	font-size: 14px;
 	text-align: justify;
