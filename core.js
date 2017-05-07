@@ -11,14 +11,15 @@ $(document).ready(function() {
 		$("p").fadeOut("slow", redirect);
 	});
 
-	$("img").hover(function() {
-
-	});
-
 	function redirect() {
 		window.location = newLocation;
 	}
 });
+
+
+/*
+flickr api -> jquery this shit (PHOTO)
+*/
 
 
 /*

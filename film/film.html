@@ -6,13 +6,14 @@
 		<link rel="stylesheet" type="text/css" href="../stylin.css"/>
 		<link rel="stylesheet" type="text/css" href="../animate.css"/>
 		<link rel="stylesheet" type="text/css" href="../icons/css/font-awesome.css"/>
+		<link rel="stylesheet" href="../justifiedGallery.min.css"/>
 		<link rel="icon" href="http://www.beautycolorcode.com/f9f8fa-2880x1800.png"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<title>film</title>
 	</head>
-	<body class="animated fadeInLeft">
+	<body class="animated fadeIn">
 		<div class=wrapper>
-		<div id=sidebar>
+		<div id=sidebar class="animated fadeInLeft">
 			<a class=sidebar style="font-size:24px">alan nguyen</a><br>
 			<a href="../index.html" class=sidebar>home</a><br>
 			<a href="../project/project.html" class=sidebar>projects</a><br>
@@ -26,32 +27,36 @@
 			<a href="mailto:nguyenalan@berkeley.edu"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
 		</div>
 
-		<h2>Film</h2>
-			<p>Previously, I wrote a series of film-related articles for my high school's newspaper. This birthed my interest in dissecting films and analyzing them, critiquing them during my free time. Presented here, you will see the most recent films I have watched—as well as my all-time favorites—and how I feel about them in short excerpts.</p>
-			<p id=copy>*Click on any of the photos to read my opinions.</p>
-
-		<h3>Favorite films:</h3>
-			<a href="her.html"><img src="photos/her.jpg" class=movie></a>  
-			<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SY1000_SX675_AL_.jpg" class=movie>  
-			<img src="photos/lost.jpg" class=movie>
-			<span class="stretch"></span> 
-			<!-- i'm totally not an existentialist. --> 
-
-		<!-- removing this because i've been on a HUGE movie binge lately, will perhaps revisit if i
-			ever get the chance to learn backend web dev.
+		<h2>Criticism</h2>
+			<p>Previously, I wrote a series of film-related articles for my high school's newspaper. This birthed my interest in dissecting films and analyzing them, critiquing them during my free time.</p>
+			<p id=copy>*Click any of the photos below to read my past work.</p>
 			
-		<h3>Recently watched:</h3>
-			<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjMxOTM1OTI4MV5BMl5BanBnXkFtZTgwODE5OTYxMDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg" class=movie>
-			<img src="photos/moonlight.jpg" class=movie>
-			<img src="photos/arrival.jpg" class=movie>
-			<span class="stretch"></span> -->
-
-
-		<!--
-		<h3><a href="archives.html">Archives</h3></a>
-		
-		<p id=copy>Feel free to visit my letterbloxd profile <u><a href="http://letterboxd.com/carbine/">here</a></u> to see what I've been recently watching!</p> -->
+			<div id="films">
+				<a href="room.html"><img src="photos/room.jpg"></a>
+				<a href="exmachina.html"><img src="photos/exmachina.jpg"></a>
+				<a href="blackmirror.html"><img src="photos/blackmirror.jpg"e></a>
+				<a href="sniper.html"><img src="photos/sniper.jpg"></a>
+				<a href="interstellar.html"><img src="photos/interstellar.jpg"e></a>
+				<a href="gonegirl.html"><img src="photos/gonegirl.jpg"></a>
+				<!-- <span class="stretch"></span> -->
+			</div>
 	</div>
 	<script src="../core.js"></script>
+	<script src="../jquery.justifiedGallery.min.js"></script>
+	<script>
+	$('#films').justifiedGallery({
+		lastRow: 'nojustify',
+		margins: 3,
+		border: 10,
+		sizeRangeSuffixes: {
+			100: '_t',
+			240: '_m',
+			320: '_n',
+			500: '',
+			640: '_z',
+			1024: '_b'
+		}
+	});
+	</script>
 	</body>
 </html>
