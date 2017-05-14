@@ -64,3 +64,17 @@ p {font-size: 15px;}
 	text-align: right;
 
 }
+
+/* Small screens */
+@media screen and (min-width: 28.75em) {
+	#sidebar {
+		top: 16.2%;
+	}
+}
+
+/* Medium screens */
+@media screen and (min-width: 40.5em) {
+	#sidebar {
+		top: 27%;
+	}
+}
