@@ -4,7 +4,7 @@
 body {
 	background: #FAF9FA;
 	line-height: 1.55;
-	font-family: 'Muli', serif;
+	font-family: 'Muli', 'Open Sans', sans-serif;
 	font-weight: 100;
 	font-size: 14px;
 	text-align: justify;
@@ -22,11 +22,12 @@ p {
 /* specific classes */
 
 .wrapper {
-	max-width: 45em;
+	max-width: 450px;
 	padding: 3em;
+	padding-left: 0px;
+	padding-bottom: 20px;
 	margin-left: 17%;
 	margin-top: 4%;
-	padding-left: 0px;
 	overflow: hidden;
 }
 
