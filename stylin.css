@@ -77,7 +77,8 @@ h1 {
 }
 
 #links {
-	font-size: 1.3rem;
+	font-size: 1vw;
+	letter-spacing: .2px;
 }
 
 
