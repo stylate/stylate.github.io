@@ -14,13 +14,13 @@ a {text-decoration: none; color: #555;}
 a:hover {color:#FFD1DC;}
 
 p {
-	font-size: 1.2vw;
+	font-size: 1.5em;
 	letter-spacing: .2px;
 }
 
 h1 {
 	font-weight: lighter;
-	font-size: 2.5vw; 
+	font-size: 3em; 
 	line-height: 5px;
 }
 
@@ -77,10 +77,9 @@ h1 {
 }
 
 #links {
-	font-size: 1vw;
+	font-size: 1.2em;
 	letter-spacing: .2px;
 }
-
 
 
 /* Small screens *//*
@@ -105,18 +104,18 @@ h1 {
 /* Medium+ screens */
 @media screen and (min-width: 40.5em) {
 	p {
-		font-size: 1.2vw;
-		letter-spacing: 0.013em;
+		font-size: 1.5em;
+		letter-spacing: .2px;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 2.5vw; 
-		line-height: 0.313em;
+		font-size: 3em; 
+		line-height: 5px;
 	}
 
 	#links {
-		font-size: 1vw;
+		font-size: 1.2em;
 		letter-spacing: .2px;
 	}
 }
