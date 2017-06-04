@@ -83,7 +83,7 @@ h1 {
 
 
 
-/* Small screens */
+/* Small screens *//*
 @media all {
 	p {
 		font-size: 1.7em;
@@ -100,19 +100,19 @@ h1 {
 		font-size: 1.3em;
 		letter-spacing: .2px;
 	}
-} 
+} */
 
 /* Medium+ screens */
 @media screen and (min-width: 40.5em) {
 	p {
 		font-size: 1.2vw;
-		letter-spacing: .2px;
+		letter-spacing: 0.013em;
 	}
 
 	h1 {
 		font-weight: lighter;
 		font-size: 2.5vw; 
-		line-height: 5px;
+		line-height: 0.313em;
 	}
 
 	#links {
