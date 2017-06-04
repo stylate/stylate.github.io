@@ -83,24 +83,24 @@ h1 {
 
 
 
-/* Small screens *//*
+/* Small screens */
 @media all {
 	p {
-		font-size: 1.7rem;
+		font-size: 1.7em;
 		letter-spacing: .2px;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 2.5rem; 
+		font-size: 2.5em; 
 		line-height: 5px;
 	}
 
 	#links {
-		font-size: 1.3rem;
+		font-size: 1.3em;
 		letter-spacing: .2px;
 	}
-} */
+} 
 
 /* Medium+ screens */
 @media screen and (min-width: 40.5em) {
