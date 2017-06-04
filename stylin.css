@@ -84,15 +84,39 @@ h1 {
 
 
 /* Small screens */
-@media screen and (min-width: 28.75em) {
-	#sidebar {
-		top: 16.2%;
+@media all {
+	p {
+		font-size: 1.7rem;
+		letter-spacing: .2px;
 	}
+
+	h1 {
+		font-weight: lighter;
+		font-size: 2.5rem; 
+		line-height: 5px;
+	}
+
+	#links {
+		font-size: 1.3rem;
+		letter-spacing: .2px;
+}
 }
 
 /* Medium+ screens */
 @media screen and (min-width: 40.5em) {
-	#sidebar {
-		top: 27%;
+	p {
+		font-size: 1.2vw;
+		letter-spacing: .2px;
+	}
+
+	h1 {
+		font-weight: lighter;
+		font-size: 2.5vw; 
+		line-height: 5px;
+	}
+
+	#links {
+		font-size: 1vw;
+		letter-spacing: .2px;
 	}
 }
