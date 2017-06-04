@@ -14,13 +14,13 @@ a {text-decoration: none; color: #555;}
 a:hover {color:#FFD1DC;}
 
 p {
-	font-size: 1.5em;
+	font-size: 1.2vw;
 	letter-spacing: .2px;
 }
 
 h1 {
 	font-weight: lighter;
-	font-size: 3em; 
+	font-size: 2.5vw; 
 	line-height: 5px;
 }
 
@@ -77,45 +77,46 @@ h1 {
 }
 
 #links {
-	font-size: 1.2em;
+	font-size: 1vw;
 	letter-spacing: .2px;
 }
 
 
-/* Small screens *//*
+
+/* Small screens */
 @media all {
 	p {
-		font-size: 1.7em;
-		letter-spacing: .2px;
+		font-size: 2.4vw;
+		letter-spacing: 0.013em;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 2.5em; 
-		line-height: 5px;
+		font-size: 5vw; 
+		line-height: 0.313em;
 	}
 
 	#links {
-		font-size: 1.3em;
-		letter-spacing: .2px;
+		font-size: 2vw;
+		letter-spacing: 0.013em;
 	}
-} */
+} 
 
 /* Medium+ screens */
 @media screen and (min-width: 40.5em) {
 	p {
-		font-size: 1.5em;
-		letter-spacing: .2px;
+		font-size: 1.2vw;
+		letter-spacing: 0.013em;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 3em; 
-		line-height: 5px;
+		font-size: 2.5vw; 
+		line-height: 0.313em;
 	}
 
 	#links {
-		font-size: 1.2em;
-		letter-spacing: .2px;
+		font-size: 1vw;
+		letter-spacing: 0.013em;
 	}
 }
