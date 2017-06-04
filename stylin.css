@@ -4,7 +4,7 @@
 body {
 	background: #FAF9FA;
 	line-height: 1.55;
-	font-family: 'Muli', 'Open Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-weight: 100;
 	text-align: justify;
 	color: #555;
@@ -20,7 +20,7 @@ p {
 
 h1 {
 	font-weight: lighter;
-	font-size: 2.1vw; 
+	font-size: 2.5vw; 
 	line-height: 5px;
 }
 
