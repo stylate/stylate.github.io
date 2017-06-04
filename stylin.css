@@ -83,7 +83,7 @@ h1 {
 
 
 
-/* Small screens */
+/* Small screens *//*
 @media all {
 	p {
 		font-size: 1.7rem;
@@ -99,8 +99,8 @@ h1 {
 	#links {
 		font-size: 1.3rem;
 		letter-spacing: .2px;
-}
-}
+	}
+} */
 
 /* Medium+ screens */
 @media screen and (min-width: 40.5em) {
