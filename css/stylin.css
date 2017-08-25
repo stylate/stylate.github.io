@@ -17,17 +17,6 @@ a {
 }
 a:hover {color:#FFD1DC;}
 
-p {
-	font-size: 1.2vw;
-	letter-spacing: .2px;
-}
-
-h1 {
-	font-weight: lighter;
-	font-size: 2.5vw; 
-	line-height: 5px;
-}
-
 /* specific classes */
 
 .wrapper {
