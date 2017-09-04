@@ -42,13 +42,13 @@ a:hover {color:#FFD1DC;}
 /* small screens */
 @media screen and (min-width: 28.75em) {
 	p {
-		font-size: 0.75vw;
+		font-size: 2vw;
 		letter-spacing: 0.013em;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 1.5vw; 
+		font-size: 3vw; 
 		line-height: 0.313em;
 	}
 
@@ -61,7 +61,7 @@ a:hover {color:#FFD1DC;}
 	}
 
 	#links {
-		font-size: 0.5vw;
+		font-size: 1vw;
 		letter-spacing: 0.013em;
 	}
 
