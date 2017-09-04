@@ -42,30 +42,33 @@ a:hover {color:#FFD1DC;}
 /* small screens */
 @media screen and (min-width: 28.75em) {
 	p {
-		font-size: 2vw;
+		font-size: 3vw;
 		letter-spacing: 0.013em;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 3vw; 
+		font-size: 4vw; 
 		line-height: 0.313em;
 	}
 
 	.wrapper {
 		color: #FAF9FA;
 		max-width: 31.25em;
-		margin-top: 4%;
+		padding: 7em;
+		padding-left: 0px;
+		padding-bottom: 3.125em;
 		margin-left: 17%;
+		margin-top: 4%;
 		overflow: hidden;
 	}
 
 	#links {
-		font-size: 1vw;
+		font-size: 2.5vw;
 		letter-spacing: 0.013em;
 	}
 
-	#copy {font-size:0.5vw;}
+	#copy {font-size:1vw;}
 
 	#sidebar {
 		color: #555;
