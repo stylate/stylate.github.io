@@ -9,6 +9,8 @@ $(document).ready(function() {
 			}, 'slow', 'linear', function() {
 		    	$(this).remove();
 	    	});
+		$(".wrapper").addClass('animated fadeOutRight');
+		$("#particles-js").addClass('animated fadeOut');
 		$(".wrapper").fadeOut("slow", redirect);
 	});
 
@@ -16,8 +18,3 @@ $(document).ready(function() {
 		window.location = newLocation;
 	}
 });
-
-
-/*
-flickr api -> jquery this shit (PHOTO)
-*/
