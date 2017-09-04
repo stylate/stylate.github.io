@@ -54,6 +54,7 @@ a:hover {color:#FFD1DC;}
 
 	.wrapper {
 		color: #FAF9FA;
+		max-width: 31.25em;
 		margin-top: 4%;
 		margin-left: 17%;
 		overflow: hidden;
