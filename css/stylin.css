@@ -68,7 +68,7 @@ a:hover {color:#FFD1DC;}
 		width: 10%;
 		height: 50%;
 	text-align: right;
-	font-size:8px;
+	font-size: 1vw;
 }
 
 #links {
@@ -111,6 +111,11 @@ a:hover {color:#FFD1DC;}
 	}
 
 	#links {
+		font-size: 2vw;
+		letter-spacing: 0.013em;
+	}
+
+	#sidebar {
 		font-size: 2vw;
 		letter-spacing: 0.013em;
 	}
