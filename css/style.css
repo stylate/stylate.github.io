@@ -42,7 +42,6 @@ a:hover {color:#FFD1DC;}
 /* SMALLER screens */
 @media screen and (min-width: 20em) {
 	p {
-		font-size: 0.8vw;
 		letter-spacing: 0.013em;
 	}
 
@@ -55,17 +54,14 @@ a:hover {color:#FFD1DC;}
 		color: #FAF9FA;
 		padding: 0.2em;
 		padding-bottom: 3.125em;
-		margin-left: 17%;
+		margin-left: 13%;
 		margin-top: 4%;
 		overflow: hidden;
 	}
 
 	#links {
-		font-size: 0.7vw;
 		letter-spacing: 0.013em;
 	}
-
-	#copy {font-size:1vw;}
 }
 
 
