@@ -52,6 +52,13 @@ a:hover {color:#FFD1DC;}
 		line-height: 0.313em;
 	}
 
+	.wrapper {
+		color: #FAF9FA;
+		margin-top: 4%;
+		margin-left: 17%;
+		overflow: hidden;
+	}
+
 	#links {
 		font-size: 0.5vw;
 		letter-spacing: 0.013em;
