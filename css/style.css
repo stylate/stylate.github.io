@@ -17,19 +17,6 @@ a {
 }
 a:hover {color:#FFD1DC;}
 
-/* specific classes */
-
-.wrapper {
-	color: #FAF9FA;
-	max-width: 500px;
-	padding: 7em;
-	padding-left: 0px;
-	padding-bottom: 50px;
-	margin-left: 17%;
-	margin-top: 4%;
-	overflow: hidden;
-}
-
 /* specific styles/sections */
 
 #particles-js canvas {
@@ -52,25 +39,25 @@ a:hover {color:#FFD1DC;}
     left: 0
 }
 
-/* Medium+ screens */
-@media screen and (min-width: 40.5em) {
+/* small screens */
+@media screen and (min-width: 28.75em) {
 	p {
-		font-size: 1.5vw;
+		font-size: 0.75vw;
 		letter-spacing: 0.013em;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 3vw; 
+		font-size: 1.5vw; 
 		line-height: 0.313em;
 	}
 
 	#links {
-		font-size: 1vw;
+		font-size: 0.5vw;
 		letter-spacing: 0.013em;
 	}
 
-	#copy {font-size:1vw;}
+	#copy {font-size:0.5vw;}
 
 	#sidebar {
 		color: #555;
@@ -83,8 +70,6 @@ a:hover {color:#FFD1DC;}
 	}
 }
 
-
-
 /* Medium+ screens */
 @media screen and (min-width: 40.5em) {
 	p {
@@ -96,6 +81,17 @@ a:hover {color:#FFD1DC;}
 		font-weight: lighter;
 		font-size: 3vw; 
 		line-height: 0.313em;
+	}
+
+	.wrapper {
+		color: #FAF9FA;
+		max-width: 31.25em;
+		padding: 7em;
+		padding-left: 0px;
+		padding-bottom: 3.125em;
+		margin-left: 17%;
+		margin-top: 4%;
+		overflow: hidden;
 	}
 
 	#links {
