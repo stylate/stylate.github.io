@@ -39,7 +39,7 @@ a:hover {color:#FFD1DC;}
     left: 0
 }
 
-/* SMALLER screens */
+/* small screens */
 @media screen and (min-width: 20em) {
 	p {
 		letter-spacing: 0.013em;
@@ -54,8 +54,8 @@ a:hover {color:#FFD1DC;}
 		color: #FAF9FA;
 		padding: 0.2em;
 		padding-bottom: 3.125em;
-		margin-left: 13%;
-		margin-top: 7%;
+		margin-left: 10%;
+		margin-top: 10%;
 		overflow: hidden;
 	}
 
@@ -65,7 +65,7 @@ a:hover {color:#FFD1DC;}
 }
 
 
-/* small screens */
+/* medium screens */
 @media screen and (min-width: 28.75em) {
 	p {
 		font-size: 4vw;
@@ -107,7 +107,7 @@ a:hover {color:#FFD1DC;}
 	}
 }
 
-/* Medium+ screens */
+/* large screens */
 @media screen and (min-width: 40.5em) {
 	p {
 		font-size: 1.5vw;
