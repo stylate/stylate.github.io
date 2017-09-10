@@ -1,4 +1,14 @@
 $(document).ready(function() {
+	$("#photo").justifiedGallery();
+	$('#photo').justifiedGallery( {
+		rowHeight: 340,
+		maxRowHeight: false,
+		lastRow: 'hide',
+		margins: 3,
+		border: 10,
+		cssAnimation: true,
+		imagesAnimationDuration: 500,
+	});
 	// fade out
 	$("a").click(function(event) {
 		event.preventDefault();
