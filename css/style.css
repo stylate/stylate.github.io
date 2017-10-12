@@ -68,13 +68,13 @@ a:hover {color:#FFD1DC;}
 /* iphone 6/7+ */
 @media screen and (min-width: 25em) and (max-width: 39.250em) {
 	p {
-		font-size: 4vw;
+		font-size: 5vw;
 		letter-spacing: 0.013em;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 5vw; 
+		font-size: 6vw; 
 		line-height: 0.313em;
 	}
 
@@ -90,7 +90,7 @@ a:hover {color:#FFD1DC;}
 	}
 
 	#links {
-		font-size: 2.5vw;
+		font-size: 3vw;
 		letter-spacing: 0.013em;
 	}
 
