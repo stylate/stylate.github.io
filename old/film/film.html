@@ -1,0 +1,61 @@
+
+<html>
+<!-- hi to those of you who read html comments
+	this is totally not my first website :^) -->
+	<head>
+		<link rel="stylesheet" type="text/css" href="../stylin.css"/>
+		<link rel="stylesheet" type="text/css" href="../animate.css"/>
+		<link rel="stylesheet" type="text/css" href="../icons/css/font-awesome.css"/>
+		<link rel="stylesheet" href="../justifiedGallery.min.css"/>
+		<link rel="icon" href="http://www.beautycolorcode.com/f9f8fa-2880x1800.png"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<title>film</title>
+	</head>
+	<body class="animated fadeIn">
+		<div class=wrapper>
+		<div id=sidebar class="animated fadeInLeft">
+			<a href="../index.html" class=sidebar>home</a><br>
+			<a href="../project/project.html" class=sidebar>projects</a><br>
+			<a href="film.html" class=sidebar>film</a><br>
+			<!-- <a href="../photo/photo.html" class=sidebar>photo</a><br> -->
+
+			<a href="http://instagram.com/alanhoodie"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a>
+			<a href="http://github.com/stylate"><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>
+			<a href="http://letterboxd.com/carbine/"><i class="fa fa-film fa-fw" aria-hidden="true"></i></a>
+			<a href="mailto:nguyenalan@berkeley.edu"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
+		</div>
+
+		<h2>Criticism</h2>
+			<p>Previously, I wrote a series of film-related articles for my high school's newspaper. This birthed my interest in dissecting films and analyzing them, critiquing them during my free time.</p>
+			<p id=copy>*Click any of the photos below to read my past work.</p>
+			
+			<div id="films">
+				<a href="her.html"><img src="photos/her.jpg"></a>
+				<a href="room.html"><img src="photos/room.jpg"></a>
+				<a href="exmachina.html"><img src="photos/exmachina.jpg"></a>
+				<a href="blackmirror.html"><img src="photos/blackmirror.jpg"e></a>
+				<a href="sniper.html"><img src="photos/sniper.jpg"></a>
+				<a href="interstellar.html"><img src="photos/interstellar.jpg"e></a>
+				<a href="gonegirl.html"><img src="photos/gonegirl.jpg"></a>
+				<!-- <span class="stretch"></span> -->
+			</div>
+	</div>
+	<script src="../core.js"></script>
+	<script src="../jquery.justifiedGallery.min.js"></script>
+	<script>
+	$('#films').justifiedGallery({
+		lastRow: 'nojustify',
+		margins: 3,
+		border: 10,
+		sizeRangeSuffixes: {
+			100: '_t',
+			240: '_m',
+			320: '_n',
+			500: '',
+			640: '_z',
+			1024: '_b'
+		}
+	});
+	</script>
+	</body>
+</html>
