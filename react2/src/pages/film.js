@@ -12,7 +12,7 @@ export default class Movies extends React.Component {
         }
 
         return (
-            <div>
+            <div className="wrapper">
                 <h2>Recent movies: </h2>
                     {this.props.data.allMarkdownRemark.edges.map(({ node }, i) => (
                     <Link to={node.frontmatter.path} key={i}>{node.frontmatter.title}</Link>

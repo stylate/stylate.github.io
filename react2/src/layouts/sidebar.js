@@ -43,7 +43,6 @@ class Sidebar extends React.Component {
                     </Link></li>
                     <li><Drop title="test"/></li>
                     <li><Link to="/film" activeClassName="active">film</Link></li>
-                    <li><Link to="/resume" activeClassName="active">resume</Link></li>
                     <li>
                         <a href="https://github.com/stylate"><i className="fa fa-github fa-fw"></i></a>
                         <a href="https://instagram.com/alanhoodie"><i className="fa fa-instagram fa-fw"></i></a>
