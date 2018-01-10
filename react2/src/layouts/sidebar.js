@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 
 import './sidebar.scss';
 import './icons/scss/font-awesome.scss';
-import Drop from './drop';
+import Dropdown from './drop';
 
 
 /* blueprint:
@@ -33,20 +33,12 @@ class Sidebar extends React.Component {
                 <h1/>
                 <ul>
                     <li><Link to="/" activeClassName="active">home</Link></li>
-                    <li><Link to="/photo" activeClassName="active">
-                        photo
-                        <ul>
-                            <li><Link to="/stebbins" activeClassName="active">stebbins</Link></li>
-                            <li><Link to="/people" activeClassName="active">people</Link></li>
-                            <li><Link to="/misc" activeClassName="active">misc</Link></li>
-                        </ul>
-                    </Link></li>
-                    <li><Drop title="test"/></li>
                     <li><Link to="/film" activeClassName="active">film</Link></li>
+                    <li><Dropdown/></li>
                     <li>
                         <a href="https://github.com/stylate"><i className="fa fa-github fa-fw"></i></a>
                         <a href="https://instagram.com/alanhoodie"><i className="fa fa-instagram fa-fw"></i></a>
-                        <a href="https://letterbloxd.com/carbine"><i className="fa fa-film fa-fw"></i></a>
+                        <a href="https://letterboxd.com/carbine"><i className="fa fa-film fa-fw"></i></a>
                         <a href="mailto:nguyenalan@berkeley.edu"><i className="fa fa-envelope fa-fw"></i></a>
                         <a href="docs/resume.pdf"><i className="fa fa-file-o fa-fw"></i></a>
                     </li>

@@ -14,7 +14,8 @@ class Dropdown extends React.Component {
         };
     }
 
-    toggleMenu() {
+    toggleMenu(event) {
+        event.preventDefault();
         this.setState({menuActive: !this.state.menuActive});
     }
 
@@ -22,9 +23,11 @@ class Dropdown extends React.Component {
         let menu;
         if (this.state.menuActive) {
             menu = <div>
+                    <br/>
                     <ul>
                         <li><Link to="/stebbins" activeClassName="active">stebbins</Link></li>
                         <li><Link to="/people" activeClassName="active">people</Link></li>
+                        <li><Link to="/overseas" activeClassName="active">overseas</Link></li>
                         <li><Link to="/misc" activeClassName="active">misc</Link></li>
                     </ul>
                     </div>
@@ -33,7 +36,7 @@ class Dropdown extends React.Component {
         }
         return (
             <div id="menu-container">
-                <i className = "fa fa-plus" onClick = {this.toggleMenu}> {this.props.title} </i>
+                <a href="photo" onClick = {this.toggleMenu}> photo {menu} </a>
             </div>
         )
     }
