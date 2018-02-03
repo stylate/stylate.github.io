@@ -1,0 +1,263 @@
+/* smaller */
+@media screen and (min-width: 20em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 0%;
+        margin-top: 110%;
+        position: fixed;
+        height: 30vh;
+        width: 35vw;
+
+        ul {
+            line-height: 0.15em;
+            ul {
+                margin-left: 13%;
+            }
+            li {
+                list-style-type: none;
+                a {
+                    line-height: 0.8em;
+                    font-size: 3.5vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* iphone 6/7+ */
+@media screen and (min-width: 25em) and (max-width: 39.250em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 0%;
+        margin-top: 110%;
+        position: fixed;
+        height: 30vh;
+        width: 35vw;
+
+        ul {
+            line-height: 0.3em;
+            ul {
+                margin-left: 13%;
+            }
+            li {
+                list-style-type: none;
+                a {
+                    line-height: 0.7em;
+                    font-size: 3.5vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* medium */
+@media screen and (min-width: 28.75em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 0%;
+        margin-top: 65%;
+        position: fixed;
+        height: 30vh;
+        width: 35vw;
+
+        ul {
+            line-height: 0.6em;
+            li {
+                list-style-type: none;
+                a {
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* large */
+@media screen and (min-width: 40.5em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 0%;
+        margin-top: 30%;
+        position: fixed;
+        height: 30vh;
+        width: 23vw;
+
+        ul {
+            line-height: 0.6em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 2.5vw;
+                    line-height: 0.7em;
+                    letter-spacing: 0.013em;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* larger (ipad) */
+@media screen and (min-width: 48em) and (max-width: 64em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 3%;
+        margin-top: 23%;
+        position: fixed;
+        height: 30vh;
+        width: 23vw;
+
+        ul {
+            line-height: 0.6em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 2.5vw;
+                    line-height: 0.7em;
+                    letter-spacing: 0.013em;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ipad pro */
+@media screen and (min-width: 64em) and (max-width: 85.375em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 3%;
+        margin-top: 23%;
+        position: fixed;
+        height: 30vh;
+        width: 14vw;
+
+        ul {
+            line-height: 0.8em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 2.5vw;
+                    line-height: 0.7em;
+                    letter-spacing: 0.013em;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* laptop */
+@media screen and (min-width: 85.375em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 8%;
+        margin-top: 30%;
+        position: fixed;
+        height: 30vh;
+        width: 13vw;
+
+        ul {
+            line-height: 0.5em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 1.3vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 100em) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 8%;
+        margin-top: 28%;
+        position: fixed;
+        height: 30vh;
+        width: 13vw;
+
+        ul {
+            line-height: 0.5em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 1vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.menu-container {
+        .menu-enter {
+            max-height: 0px;
+            -webkit-transition: max-height 1s ease;
+            overflow: hidden;
+        }
+
+        .menu-enter.menu-enter-active {
+            height: auto;
+            max-height: 100px;
+        }
+
+        .menu-leave {
+            max-height: 100px;
+            -webkit-transition: max-height 1s ease;
+        }
+
+        .menu-leave.menu-leave-active {
+            overflow: hidden;
+            max-height: 0px;
+        }
+}
