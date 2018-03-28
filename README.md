@@ -7,7 +7,7 @@ This is my personal website, deployed in React.
 
 ### 3/28/18
     
-    * Fixed breakpoints.
+    * Fixed breakpoints and modified bio.
     * Removed blog section temporarily.
     * Began website redesign.
 

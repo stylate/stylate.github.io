@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
 
             <p>Hello! I'm currently a third-year undergrad who is studying computer science at UC Berkeley. Aside from my passion for software engineering, I love to tinker with cool technologies in the realm of media and communication.</p>
             
-            <p>Outside of school, I am an advocate for the visual and performing arts–a sucker for film, urban & contemporary dance, music production, and photography.</p>
+            <p>Outside of school, I am an advocate for the visual and performing arts–a sucker for film, urban & contemporary dance, music production, and photography!</p>
             </div>
         );
     }
