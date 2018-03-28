@@ -1,0 +1,174 @@
+/* phone */
+@media screen and (max-width: 599px) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 0%;
+        margin-top: 75%;
+        position: fixed;
+        height: 30vh;
+        width: 30vw;
+
+        ul {
+            line-height: 0.15em;
+            ul {
+                margin-left: 13%;
+            }
+            li {
+                list-style-type: none;
+                a {
+                    line-height: 0.8em;
+                    font-size: 3.5vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* tablet, portrait */
+@media screen and (min-width: 600px) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 3%;
+        margin-top: 60%;
+        position: fixed;
+        height: 30vh;
+        width: 30vw;
+
+        ul {
+            line-height: 0.15em;
+            ul {
+                margin-left: 13%;
+            }
+            li {
+                list-style-type: none;
+                a {
+                    line-height: 0.8em;
+                    font-size: 3.5vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* tablet, landscape */
+@media screen and (min-width: 900px) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 2%;
+        margin-top: 33%;
+        position: fixed;
+        height: 30vh;
+        width: 30vw;
+
+        ul {
+            line-height: 0.9em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 3vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 13%;
+        margin-top: 22%;
+        position: fixed;
+        height: 30vh;
+        width: 18vw;
+
+        ul {
+            line-height: 0.5em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 1.6vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* desktop, big */
+@media screen and (min-width: 1800px) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 15%;
+        margin-top: 17%;
+        position: fixed;
+        height: 30vh;
+        width: 13vw;
+
+        ul {
+            line-height: 0.5em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 1.5vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.menu-container {
+        .menu-enter {
+            max-height: 0px;
+            -webkit-transition: max-height 1s ease;
+            overflow: hidden;
+        }
+
+        .menu-enter.menu-enter-active {
+            height: auto;
+            max-height: 100px;
+        }
+
+        .menu-leave {
+            max-height: 100px;
+            -webkit-transition: max-height 1s ease;
+        }
+
+        .menu-leave.menu-leave-active {
+            overflow: hidden;
+            max-height: 0px;
+        }
+}
