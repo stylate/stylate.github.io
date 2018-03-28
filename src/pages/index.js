@@ -15,9 +15,9 @@ export default class IndexPage extends React.Component {
             <div className="wrapper">
             <h1>ALAN NGUYEN</h1>
 
-            <p>Hello! I'm a third-year undergraduate student, studying computer science at UC Berkeley. I enjoy tinkering with code and applying it to media platforms like music and whatnot.</p>
-
-            <p>Aside from school, I'm a total film junkie who binges (and writes about) critically acclaimed films and television shows on the daily. I also enjoy taking lots of lifestyle and landscape photos as well! </p>
+            <p>Hello! I'm currently a third-year undergrad who is studying computer science at UC Berkeley. Aside from my passion for software engineering, I love to tinker with cool technologies in the realm of media and communication.</p>
+            
+            <p>Outside of school, I am an advocate for the visual and performing arts–a sucker for film, urban & contemporary dance, music production, and photography.</p>
             </div>
         );
     }

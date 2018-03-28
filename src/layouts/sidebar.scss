@@ -1,13 +1,13 @@
-/* smaller */
-@media screen and (min-width: 20em) {
+/* phone */
+@media screen and (max-width: 599px) {
     .sidebar {
         background: #1A1A1A;
         line-height: 1.55;
         margin-left: 0%;
-        margin-top: 110%;
+        margin-top: 75%;
         position: fixed;
         height: 30vh;
-        width: 35vw;
+        width: 30vw;
 
         ul {
             line-height: 0.15em;
@@ -30,26 +30,26 @@
     }
 }
 
-/* iphone 6/7+ */
-@media screen and (min-width: 25em) and (max-width: 39.250em) {
+/* tablet, portrait */
+@media screen and (min-width: 600px) {
     .sidebar {
         background: #1A1A1A;
         line-height: 1.55;
-        margin-left: 0%;
-        margin-top: 110%;
+        margin-left: 3%;
+        margin-top: 60%;
         position: fixed;
         height: 30vh;
-        width: 35vw;
+        width: 30vw;
 
         ul {
-            line-height: 0.3em;
+            line-height: 0.15em;
             ul {
                 margin-left: 13%;
             }
             li {
                 list-style-type: none;
                 a {
-                    line-height: 0.7em;
+                    line-height: 0.8em;
                     font-size: 3.5vw;
                     text-decoration: none;
                     color: #FDFDFD;
@@ -62,22 +62,23 @@
     }
 }
 
-/* medium */
-@media screen and (min-width: 28.75em) {
+/* tablet, landscape */
+@media screen and (min-width: 900px) {
     .sidebar {
         background: #1A1A1A;
         line-height: 1.55;
-        margin-left: 0%;
-        margin-top: 65%;
+        margin-left: 2%;
+        margin-top: 33%;
         position: fixed;
         height: 30vh;
-        width: 35vw;
+        width: 30vw;
 
         ul {
-            line-height: 0.6em;
+            line-height: 0.9em;
             li {
                 list-style-type: none;
                 a {
+                    font-size: 3vw;
                     text-decoration: none;
                     color: #FDFDFD;
                     &:hover {
@@ -89,132 +90,42 @@
     }
 }
 
-/* large */
-@media screen and (min-width: 40.5em) {
-    .sidebar {
-        background: #1A1A1A;
-        line-height: 1.55;
-        margin-left: 0%;
-        margin-top: 30%;
-        position: fixed;
-        height: 30vh;
-        width: 23vw;
-
-        ul {
-            line-height: 0.6em;
-            li {
-                list-style-type: none;
-                a {
-                    font-size: 2.5vw;
-                    line-height: 0.7em;
-                    letter-spacing: 0.013em;
-                    text-decoration: none;
-                    color: #FDFDFD;
-                    &:hover {
-                        color: #A0BABD;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/* larger (ipad) */
-@media screen and (min-width: 48em) and (max-width: 64em) {
-    .sidebar {
-        background: #1A1A1A;
-        line-height: 1.55;
-        margin-left: 3%;
-        margin-top: 23%;
-        position: fixed;
-        height: 30vh;
-        width: 23vw;
-
-        ul {
-            line-height: 0.6em;
-            li {
-                list-style-type: none;
-                a {
-                    font-size: 2.5vw;
-                    line-height: 0.7em;
-                    letter-spacing: 0.013em;
-                    text-decoration: none;
-                    color: #FDFDFD;
-                    &:hover {
-                        color: #A0BABD;
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-/* ipad pro */
-@media screen and (min-width: 64em) and (max-width: 85.375em) {
-    .sidebar {
-        background: #1A1A1A;
-        line-height: 1.55;
-        margin-left: 3%;
-        margin-top: 23%;
-        position: fixed;
-        height: 30vh;
-        width: 14vw;
-
-        ul {
-            line-height: 0.8em;
-            li {
-                list-style-type: none;
-                a {
-                    font-size: 2.5vw;
-                    line-height: 0.7em;
-                    letter-spacing: 0.013em;
-                    text-decoration: none;
-                    color: #FDFDFD;
-                    &:hover {
-                        color: #A0BABD;
-                    }
-                }
-            }
-        }
-    }
-}
-
-/* laptop */
-@media screen and (min-width: 85.375em) {
-    .sidebar {
-        background: #1A1A1A;
-        line-height: 1.55;
-        margin-left: 8%;
-        margin-top: 30%;
-        position: fixed;
-        height: 30vh;
-        width: 13vw;
-
-        ul {
-            line-height: 0.5em;
-            li {
-                list-style-type: none;
-                a {
-                    font-size: 1.3vw;
-                    text-decoration: none;
-                    color: #FDFDFD;
-                    &:hover {
-                        color: #A0BABD;
-                    }
-                }
-            }
-        }
-    }
-}
 
 /* desktop */
-@media screen and (min-width: 100em) {
+@media screen and (min-width: 1200px) {
     .sidebar {
         background: #1A1A1A;
         line-height: 1.55;
-        margin-left: 8%;
-        margin-top: 28%;
+        margin-left: 13%;
+        margin-top: 22%;
+        position: fixed;
+        height: 30vh;
+        width: 18vw;
+
+        ul {
+            line-height: 0.5em;
+            li {
+                list-style-type: none;
+                a {
+                    font-size: 1.6vw;
+                    text-decoration: none;
+                    color: #FDFDFD;
+                    &:hover {
+                        color: #A0BABD;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* desktop, big */
+@media screen and (min-width: 1800px) {
+    .sidebar {
+        background: #1A1A1A;
+        line-height: 1.55;
+        margin-left: 15%;
+        margin-top: 17%;
         position: fixed;
         height: 30vh;
         width: 13vw;
@@ -224,7 +135,7 @@
             li {
                 list-style-type: none;
                 a {
-                    font-size: 1vw;
+                    font-size: 1.5vw;
                     text-decoration: none;
                     color: #FDFDFD;
                     &:hover {

@@ -4,6 +4,13 @@ This is my personal website, deployed in React.
 
 ## Updates:
 
+
+### 3/28/18
+    
+    * Fixed breakpoints.
+    * Removed blog section temporarily.
+    * Began website redesign.
+
 ### 2/3/18
 
     * Removed EXIF data.
