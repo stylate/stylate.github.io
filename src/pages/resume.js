@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import resume from '../../docs/resume.pdf';
 
 export default class Resume extends React.Component {
     render() {
@@ -11,7 +12,7 @@ export default class Resume extends React.Component {
         }
 
         return (
-            <script>setTimeout(function(){window.location.href="http://www.alandn.com/static/resume.6d57296a.pdf"},0);</script>
+            <script>setTimeout(function(){window.location.href={resume}},0);</script>
         );
     }
 }
