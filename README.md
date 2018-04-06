@@ -4,6 +4,10 @@ This is my personal website, deployed in React.
 
 ## Updates:
 
+## 4/5/18
+
+    * Created an automatic redirect to my resume for easy access from recruiters.
+
 
 ### 3/28/18
     
