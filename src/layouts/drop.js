@@ -49,9 +49,9 @@ class Dropdown extends React.Component {
         transitionLeave={false}>
                         <ul>
                             <li><Link to="/stebbins" activeClassName="active">stebbins</Link></li>
-                            <li><Link to="/people" activeClassName="active">people</Link></li>
+                            <li><Link to="/analog" activeClassName="active">analog</Link></li>
                             <li><Link to="/overseas" activeClassName="active">overseas</Link></li>
-                            <li><Link to="/misc" activeClassName="active">misc</Link></li>
+                            <li><Link to="/solitude" activeClassName="active">solitude</Link></li>
                         </ul>
                     </CSSTransitionGroup>
                         </div>
@@ -62,9 +62,9 @@ class Dropdown extends React.Component {
             menu = <div>
                 <ul>
                     <li><Link to="/stebbins" activeClassName="active">stebbins</Link></li>
-                    <li><Link to="/people" activeClassName="active">people</Link></li>
+                    <li><Link to="/analog" activeClassName="active">analog</Link></li>
                     <li><Link to="/overseas" activeClassName="active">overseas</Link></li>
-                    <li><Link to="/misc" activeClassName="active">misc</Link></li>
+                    <li><Link to="/solitude" activeClassName="active">solitude</Link></li>
                 </ul>
                 </div>
         }

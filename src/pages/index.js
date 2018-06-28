@@ -22,7 +22,7 @@ export default class IndexPage extends React.Component {
         transitionLeave={false}>
             <p>Hello! I'm a third-year undergrad who is studying computer science at UC Berkeley. I am currently interning as a Software Engineer at Fox Networks and developing on video-centric products. Aside from my passion for technology, I am also an advocate of the visual medium, partaking in film and photography.</p>
             
-            <p>**website currently in progress!</p>
+            <h5>**website currently in progress, only viewable on MOBILE devices.</h5>
 
         </CSSTransitionGroup>
             </div>
