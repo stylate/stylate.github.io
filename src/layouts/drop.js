@@ -22,13 +22,17 @@ class Dropdown extends React.Component {
     }
 
     componentWillMount() {
-        window.addEventListener('resize', this.handleWindowSizeChange);
+        if (typeof window !== 'undefined') {
+            window.addEventListener('resize', this.handleWindowSizeChange);
+        }
     }
 
     // make sure to remove the listener
     // when the component is not mounted anymore
     componentWillUnmount() {
-        window.removeEventListener('resize', this.handleWindowSizeChange);
+        if (typeof window !== 'undefined') {
+            window.removeEventListener('resize', this.handleWindowSizeChange);
+        }
     }
 
     toggleMenu(event) {
