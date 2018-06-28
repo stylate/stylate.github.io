@@ -23,10 +23,6 @@ class Dropdown extends React.Component {
 
     componentWillMount() {
         window.addEventListener('resize', this.handleWindowSizeChange);
-        this.state = {
-            menuActive: false,
-            width: window.innerWidth,
-        };
     }
 
     // make sure to remove the listener
