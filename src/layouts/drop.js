@@ -9,14 +9,14 @@ class Dropdown extends React.Component {
     constructor(props) {
         super(props);
         this.toggleMenu = this.toggleMenu.bind(this);
-        this.state = {
-            menuActive: false,
-            width: window.innerWidth,
-        };
     }
 
     componentWillMount() {
         window.addEventListener('resize', this.handleWindowSizeChange);
+        this.state = {
+            menuActive: false,
+            width: window.innerWidth,
+        };
     }
 
     // make sure to remove the listener
