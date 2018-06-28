@@ -1,48 +1,80 @@
 /* phone */
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300|Open%20Sans:200,300|Raleway:200,300|Karla);
+
+@font-face {
+    font-family: "Fabrica";
+    src: url("Fabrica.otf") format("opentype");
+}
+
+
 @media screen and (max-width: 599px) {
     .sidebar {
-        background: #1A1A1A;
-        line-height: 1.55;
+        background: #FFFFFF;
         margin-left: 0%;
-        margin-top: 75%;
-        position: fixed;
-        height: 30vh;
-        width: 30vw;
+        margin-top: 5%;
+        position: relative;
+        height: 20vh;
+        width: 80vw;
+
+        h1 {
+            font-size: 6.5vw;
+            font-family: 'Fabrica', sans-serif;
+            font-weight: 500;
+            line-height: 0;
+            width: 24em;
+            margin: 5%;
+            padding: 5%;
+        }
 
         ul {
             line-height: 0.15em;
-            ul {
-                margin-left: 13%;
-            }
+            margin: 5%;
+            padding: 5%;
             li {
                 list-style-type: none;
                 a {
-                    line-height: 0.8em;
-                    font-size: 3.5vw;
+                    line-height: 0.5em;
+                    font-weight: 100;
+                    font-size: 5.3vw;
                     text-decoration: none;
-                    color: #FDFDFD;
+                    color: #000000;
                     &:hover {
-                        color: #A0BABD;
+                        /* color: #A0BABD; */
+                        color: #000000;
                     }
                 }
             }
         }
+    }
+
+    .icons {
+        margin-left: 31%;
+        position: relative;
     }
 }
 
 /* tablet, portrait */
 @media screen and (min-width: 600px) {
     .sidebar {
-        background: #1A1A1A;
+        background: #FFFFFF;
         line-height: 1.55;
-        margin-left: 3%;
-        margin-top: 60%;
-        position: fixed;
-        height: 30vh;
-        width: 30vw;
+        margin-left: 0%;
+        margin-top: 5%;
+        position: relative;
+        height: 20vh;
+        width: 80vw;
+
+        h1 {
+            font-size: 6.5vw;
+            font-weight: 600;
+            line-height: 0;
+            width: 24em;
+            padding: 5%;
+        }
+
 
         ul {
-            line-height: 0.15em;
+            line-height: 0.2em;
             ul {
                 margin-left: 13%;
             }
@@ -50,43 +82,64 @@
                 list-style-type: none;
                 a {
                     line-height: 0.8em;
-                    font-size: 3.5vw;
+                    font-size: 4.5vw;
                     text-decoration: none;
-                    color: #FDFDFD;
+                    color: #000000;
                     &:hover {
-                        color: #A0BABD;
+                        color: #000000;
                     }
                 }
             }
         }
     }
+
+    .icons {
+        margin-left: 40%;
+        position: relative;
+    }
 }
 
-/* tablet, landscape */
+/* tablet, landscape, ipad pro */
 @media screen and (min-width: 900px) {
     .sidebar {
-        background: #1A1A1A;
-        line-height: 1.55zz;
-        margin-left: 2%;
-        margin-top: 33%;
-        position: fixed;
-        height: 30vh;
-        width: 30vw;
+        background: #FFFFFF;
+        line-height: 1.55;
+        margin-left: 0%;
+        margin-top: 5%;
+        position: relative;
+        height: 20vh;
+        width: 80vw;
+
+        h1 {
+            font-size: 6.5vw;
+            font-weight: 600;
+            line-height: 0;
+            width: 24em;
+            margin-left: 0%;
+            padding: 5%;
+        }
 
         ul {
             line-height: 0.9em;
+            padding: 2%;
             li {
                 list-style-type: none;
+                margin-left: 1px;
                 a {
-                    font-size: 3vw;
+                    font-size: 4.5vw;
                     text-decoration: none;
-                    color: #FDFDFD;
+                    color: #000000;
                     &:hover {
-                        color: #A0BABD;
+                        color: #000000;
                     }
                 }
             }
         }
+    }
+
+    .icons {
+        margin-left: 42%;
+        position: relative;
     }
 }
 
@@ -94,27 +147,43 @@
 /* desktop */
 @media screen and (min-width: 1200px) {
     .sidebar {
-        background: #1A1A1A;
+        background: #FFFFFF;
         line-height: 1.55;
-        margin-left: 13%;
-        margin-top: 22%;
-        position: fixed;
-        height: 30vh;
-        width: 18vw;
+        margin-left: 70%;
+        margin-top: 0%;
+        position: relative;
+        height: 20vh;
+        width: 80vw;
+
+        h1 {
+            font-size: 5vw;
+            font-weight: 600;
+            line-height: 0;
+            width: 24em;
+            padding: 5%;
+            margin-left: -90%;
+            margin-top: 3%;
+        }
 
         ul {
             line-height: 0.5em;
+            margin-top: -14%;
             li {
                 list-style-type: none;
                 a {
                     font-size: 1.6vw;
                     text-decoration: none;
-                    color: #FDFDFD;
+                    color: #000000;
                     &:hover {
-                        color: #A0BABD;
+                        color: #000000;
                     }
                 }
             }
+        }
+
+        #misc {
+            margin-top: 0%;
+
         }
     }
 }
@@ -122,14 +191,23 @@
 /* desktop, big */
 @media screen and (min-width: 1800px) {
     .sidebar {
-        background: #1A1A1A;
+        background: #FFFFFF;
         line-height: 1.55;
-        margin-left: 15%;
-        margin-top: 17%;
-        position: fixed;
-        height: 30vh;
-        width: 13vw;
+        margin-left: 3%;
+        margin-top: 30%;
+        position: relative;
+        height: 20vh;
+        width: 80vw;
 
+        h1 {
+            font-size: 6.5vw;
+            font-weight: 600;
+            line-height: 0;
+            width: 24em;
+            margin: 5%;
+            padding: 5%;
+        }
+        
         ul {
             line-height: 0.5em;
             li {
@@ -137,13 +215,18 @@
                 a {
                     font-size: 1.5vw;
                     text-decoration: none;
-                    color: #FDFDFD;
+                    color: #000000;
                     &:hover {
-                        color: #A0BABD;
+                        color: #000000;
                     }
                 }
             }
         }
+    }
+
+    .icons {
+        margin-left: 27%;
+        position: relative;
     }
 }
 

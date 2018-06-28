@@ -1,8 +1,23 @@
 # Welcome!
 
-This is my personal website, deployed in React.
+This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 
 ## Updates:
+
+
+## 6/11/18
+
+    * Added fade animations to sidebar and index.
+
+## 6/3/18
+
+    * Fixed design breakpoints.
+
+
+## 5/29/18
+
+    * Began v3 website redesign.
+
 
 ## 4/5/18
 
@@ -29,12 +44,14 @@ This is my personal website, deployed in React.
 
     * Pushed a rough draft of the website live.
 
-
-
-Here's my to-do list:
+## To-do:
 
     * Convert photo gallery into components for cleaner code.
-    * Add animations to make website seem less boring.
-    * Finish blog section.
-
+    * Add loading animations for images and fade-in for entire website.
+    * Construct desktop design.
+        * Implement horizontal sidebar and scrolling
+    * Create a blog section.
+        * Blog will be a compository of film/photo thoughts....?
+    * Images:
+        * analog
 

@@ -14,7 +14,7 @@ import s8 from './photo/stebbins/8.jpg'
 export default class Stebbins extends React.Component {
     render() {
         return (
-            <div className="wrapper">
+            <div className="wrapper-img">
                 <LazyLoad height={200}><img src={s1} alt={"s1"}/></LazyLoad>
                 <LazyLoad height={200}><img src={s2} alt={"s2"}/></LazyLoad>
                 <LazyLoad height={200}><img src={s3} alt={"s3"}/></LazyLoad>

@@ -3,15 +3,26 @@ import Link from 'gatsby-link';
 import {CSSTransitionGroup} from 'react-transition-group';
 import './icons/scss/font-awesome.scss';
 import './sidebar.scss';
-
+import './drop.scss';
 
 class Dropdown extends React.Component {
     constructor(props) {
         super(props);
         this.toggleMenu = this.toggleMenu.bind(this);
         this.state = {
-            menuActive: false
+            menuActive: false,
+            width: window.innerWidth,
         };
+    }
+
+    componentWillMount() {
+        window.addEventListener('resize', this.handleWindowSizeChange);
+    }
+
+    // make sure to remove the listener
+    // when the component is not mounted anymore
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleWindowSizeChange);
     }
 
     toggleMenu(event) {
@@ -19,20 +30,43 @@ class Dropdown extends React.Component {
         this.setState({menuActive: !this.state.menuActive});
     }
 
+    handleWindowSizeChange = () => {
+        this.setState({ width: window.innerWidth });
+    }
+
     render() {
         let menu;
-        if (this.state.menuActive) {
-            menu = <div>
-                    <br/>
-                    <ul>
-                        <li><Link to="/stebbins" activeClassName="active">stebbins</Link></li>
-                        <li><Link to="/people" activeClassName="active">people</Link></li>
-                        <li><Link to="/overseas" activeClassName="active">overseas</Link></li>
-                        <li><Link to="/misc" activeClassName="active">misc</Link></li>
-                    </ul>
-                    </div>
+        const { width } = this.state;
+        const isMobile = width <= 900;
+        if (!isMobile) {
+            if (this.state.menuActive) {
+                menu = <div className="drop">
+                                    <CSSTransitionGroup
+        transitionName="fade"
+        transitionAppear={true}
+        transitionAppearTimeout={500}
+        transitionEnter={false}
+        transitionLeave={false}>
+                        <ul>
+                            <li><Link to="/stebbins" activeClassName="active">stebbins</Link></li>
+                            <li><Link to="/people" activeClassName="active">people</Link></li>
+                            <li><Link to="/overseas" activeClassName="active">overseas</Link></li>
+                            <li><Link to="/misc" activeClassName="active">misc</Link></li>
+                        </ul>
+                    </CSSTransitionGroup>
+                        </div>
+            } else {
+                menu = ""
+            }
         } else {
-            menu = "";
+            menu = <div>
+                <ul>
+                    <li><Link to="/stebbins" activeClassName="active">stebbins</Link></li>
+                    <li><Link to="/people" activeClassName="active">people</Link></li>
+                    <li><Link to="/overseas" activeClassName="active">overseas</Link></li>
+                    <li><Link to="/misc" activeClassName="active">misc</Link></li>
+                </ul>
+                </div>
         }
         return (
             <div id="menu-container">

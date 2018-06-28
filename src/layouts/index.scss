@@ -1,12 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Muli:200,300|Open%20Sans:200,300|Raleway:200,300);
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300|Open%20Sans:200,300|Raleway:200,300|Karla);
+
+@font-face {
+    font-family: "Fabrica";
+    src: url("Fabrica.otf") format("opentype");
+}
 
 /* universal breakpoint */
 
 html, body {
-	/* background: #232741; dark blue */
-	background: #1A1A1A; /* dark gray */
+	/* background: #1A1A1A; dark blue */
+	background: #FFFFFF; /* dark gray */
 	line-height: 1.55;
-	font-family: 'Muli', sans-serif;
+	font-family: 'Fabrica', sans-serif;
 	font-weight: 100;
 	height: 100%;
 }
@@ -20,9 +25,10 @@ a:hover {color:#FFD1DC;}
 /* phone */
 @media screen and (max-width: 599px) {
 	p {
-		font-size: 4vw;
+		font-size: 4.5vw;
 		letter-spacing: 0.013em;
-        width: 15em;
+        width: 16em;
+        margin-top: 34%;
 	}
 
 	h1 {
@@ -33,20 +39,20 @@ a:hover {color:#FFD1DC;}
 	}
 
     img {
-        max-width: 200%;
+        margin-top: 34%;
+        max-width: 110%;
         max-height: 100%;
         height: auto;
         width: auto;
+        padding-bottom: -5%;
     }
 
 	.wrapper {
-		color: #FDFDFD;
-		max-width: 35em;
-		padding: 7em;
+		max-width: 50em;
+		padding: 3em;
 		padding-left: 0px;
-		padding-bottom: 3.125em;
-        margin-top: auto;
-		margin-left: 30%;
+        margin-top: 0%;
+		margin-left: 10%;
 		overflow: hidden;
 	}
 
@@ -63,7 +69,9 @@ a:hover {color:#FFD1DC;}
 	p {
 		font-size: 4vw;
 		letter-spacing: 0.013em;
-		width: 15em;
+		padding-bottom: 3.125em;
+		width: 17em;
+		margin-top: 35%;
 	}
 
 	h1 {
@@ -73,19 +81,19 @@ a:hover {color:#FFD1DC;}
 	}
 
 	img {
-        max-width: 200%;
+        margin-top: 35%;
+        max-width: 110%;
         max-height: 100%;
         height: auto;
         width: auto;
     }
 
 	.wrapper {
-		color: #FDFDFD;
-		max-width: 31.25em;
-		padding: 7em;
+		max-width: 50em;
+		padding: 3em;
 		padding-left: 0px;
-		padding-bottom: 3.125em;
-		margin-left: 35%;
+        margin-top: 0%;
+		margin-left: 18%;
 		overflow: hidden;
 	}
 
@@ -95,15 +103,15 @@ a:hover {color:#FFD1DC;}
 	}
 
 	#copy {font-size:1vw;}
-
 }
 
-/* tablet, landscape */
+/* tablet, landscape, ipad pro */
 @media screen and (min-width: 900px) {
 	p {
-		font-size: 3vw;
+		font-size: 4vw;
 		letter-spacing: 0.013em;
         width: 20em;
+        margin-top: 36%;
 	}
 
 	h1 {
@@ -113,19 +121,19 @@ a:hover {color:#FFD1DC;}
 	}
 
 	img {
-        max-width: 200%;
+        margin-top: 35%;
+        max-width: 110%;
         max-height: 100%;
         height: auto;
         width: auto;
     }
 
 	.wrapper {
-		color: #FDFDFD;
-		max-width: 31.25em;
-		padding: 7em;
+		max-width: 50em;
+		padding: 3em;
 		padding-left: 0px;
-		padding-bottom: 3.125em;
-		margin-left: 30%;
+		margin-left: 12%;
+        margin-top: 0%;
 		overflow: hidden;
 	}
 
@@ -143,6 +151,7 @@ a:hover {color:#FFD1DC;}
 		font-size: 1.6vw;
 		letter-spacing: 0.013em;
 		width: 20em;
+		margin-top: 9%;
 	}
 
 	h1 {
@@ -152,21 +161,30 @@ a:hover {color:#FFD1DC;}
 	}
 
 	img {
-        max-width: 100%;
-        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40%;
+        max-height: 40%;
         height: auto;
         width: auto;
+        display: block;
+        vertical-align: top;
     }
 
 	.wrapper {
-		color: #FDFDFD;
 		max-width: 50em;
-		padding: 7em;
+		padding: 3em;
 		padding-left: 0px;
-		padding-bottom: 3.125em;
-		margin-left: 30%;
+        margin-top: -5%;
+		margin-left: -25%;
 		overflow: hidden;
 	}
+
+    .wrapper-img {
+        text-align: center;
+        margin-left: -10%;
+        margin-top: -25%;
+    }
 
 	#links {
 		font-size: 2vw;
@@ -182,6 +200,7 @@ a:hover {color:#FFD1DC;}
 		font-size: 1.5vw;
 		letter-spacing: 0.013em;
 		width: 20em;
+		margin-top: 35%;
 	}
 
 	h1 {
@@ -191,20 +210,19 @@ a:hover {color:#FFD1DC;}
 	}
 
 	img {
-		max-height: 100%;
+        margin-top: 35%;
+		max-height: 110%;
 		max-width: 100%;
         height: auto;
         width: auto;
     }
 
 	.wrapper {
-		color: #FDFDFD;
-		max-width: 40em;
-		padding: 7em;
+		max-width: 50em;
+		padding: 3em;
 		padding-left: 0px;
-		padding-bottom: 3.125em;
-		margin-left: 20%;
-		margin-top: 10%;
+		margin-left: 10%;
+		margin-top: 0%;
 		overflow: hidden;
 	}
 
@@ -216,3 +234,30 @@ a:hover {color:#FFD1DC;}
 	#copy {font-size:1vw;}
 }
 
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-appear {
+  opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

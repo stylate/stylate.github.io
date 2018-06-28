@@ -2,9 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import { CSSTransitionGroup } from 'react-transition-group'
 
 import './index.scss'
 import Sidebar from './sidebar'
+import Icons from './icons'
 
 // add sidebar stuff here.
 
@@ -46,7 +48,14 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    <CSSTransitionGroup
+      transitionName="fade"
+      transitionAppear={true}
+      transitionAppearTimeout={500}
+      transitionEnter={false}
+      transitionLeave={false}>    
     <Sidebar/>
+    </CSSTransitionGroup>
     <div
       style={{
         margin: '0 auto',

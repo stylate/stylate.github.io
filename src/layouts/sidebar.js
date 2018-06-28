@@ -2,12 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import { CSSTransitionGroup } from 'react-transition-group'
+
 
 import './sidebar.scss';
 import './icons/scss/font-awesome.scss';
 import resume from '../../docs/resume.pdf';
 import Dropdown from './drop';
-
+import Icons from './icons';
 
 /* blueprint:
  *  - fix dropdown and add animation
@@ -17,7 +19,6 @@ import Dropdown from './drop';
 class Sidebar extends React.Component {
     constructor(props) {
         super(props);
-
         this.state = {
             dropDown: false
         }
@@ -31,20 +32,13 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div className="sidebar">
-                <h1/>
+                <h1>ALAN NGUYEN</h1>
                 <ul>
                     <li><Link to="/" activeClassName="active">home</Link></li>
-                    <li><Dropdown/></li>
-                    <li>
-                        <a href="https://github.com/stylate"><i className="fa fa-github fa-fw"></i></a>
-                        <a href="https://instagram.com/alanhoodie"><i className="fa fa-instagram fa-fw"></i></a>
-                        <a href="https://letterboxd.com/carbine"><i className="fa fa-film fa-fw"></i></a><br/><br/>
-                        <a href="mailto:nguyenalan@berkeley.edu"><i className="fa fa-envelope fa-fw"></i></a>
-                        <a href="https://open.spotify.com/user/flexcy_?si=K2yrBitRSP-l0F8WphXsUQ"><i className="fa fa-spotify fa-fw"></i></a>
-                        <a href={resume}><i className="fa fa-file-o fa-fw"></i></a>
-                    </li>
-                </ul>
-                
+                    <li><Link to="/" activeClassName="active">blog</Link></li>
+                    <div id="misc"><li><Dropdown/></li></div>
+                </ul> 
+                <Icons/>
             </div>
         )
     }

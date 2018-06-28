@@ -1,0 +1,87 @@
+@media screen and (max-width: 599px) {
+    .icons {
+        margin-left: 37%;
+        margin-top: -4%;
+        position: relative;
+        a {
+            line-height: 0.5em;
+            font-weight: 100;
+            font-size: 5.3vw;
+            text-decoration: none;
+            color: #000000;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .icons {
+        margin-left: 40%;
+        margin-top: -4%;
+        position: relative;
+        a {
+            line-height: 0.5em;
+            font-weight: 100;
+            font-size: 4.5vw;
+            text-decoration: none;
+            color: #000000;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .icons {
+        margin-left: 42%;
+        position: relative;
+        a {
+            line-height: 0.5em;
+            font-weight: 100;
+            font-size: 4.5vw;
+            text-decoration: none;
+            color: #000000;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .icons {
+        margin-left: 4%;
+        position: relative;
+        a {
+            line-height: 0.5em;
+            font-weight: 100;
+            font-size: 1.6vw;
+            text-decoration: none;
+            color: #000000;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .icons {
+        margin-left: 27%;
+        position: relative;
+        a {
+            line-height: 0.5em;
+            font-weight: 100;
+            font-size: 1.5vw;
+            text-decoration: none;
+            color: #000000;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
+

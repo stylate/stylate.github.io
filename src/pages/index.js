@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import { CSSTransitionGroup } from 'react-transition-group'
 
 export default class IndexPage extends React.Component {
     render() {
@@ -13,11 +14,17 @@ export default class IndexPage extends React.Component {
 
         return (
             <div className="wrapper">
-            <h1>ALAN NGUYEN</h1>
-
-            <p>Hello! I'm currently a third-year undergrad who is studying computer science at UC Berkeley. Aside from my passion for software engineering, I love to tinker with cool technologies in the realm of media and communication.</p>
+            <CSSTransitionGroup
+        transitionName="fade"
+        transitionAppear={true}
+        transitionAppearTimeout={500}
+        transitionEnter={false}
+        transitionLeave={false}>
+            <p>Hello! I'm a third-year undergrad who is studying computer science at UC Berkeley. I am currently interning as a Software Engineer at Fox Networks and developing on video-centric products. Aside from my passion for technology, I am also an advocate of the visual medium, partaking in film and photography.</p>
             
-            <p>Outside of school, I am an advocate for the visual and performing arts–a sucker for film, urban & contemporary dance, music production, and photography!</p>
+            <p>**website currently in progress!</p>
+
+        </CSSTransitionGroup>
             </div>
         );
     }
