@@ -9,6 +9,16 @@ class Dropdown extends React.Component {
     constructor(props) {
         super(props);
         this.toggleMenu = this.toggleMenu.bind(this);
+        if (typeof window !== 'undefined') {
+            this.state = {
+                menuActive: false,
+                width: window.innerWidth,
+            };
+        } else {
+            this.state = {
+                menuActive: false
+            };
+        }
     }
 
     componentWillMount() {
