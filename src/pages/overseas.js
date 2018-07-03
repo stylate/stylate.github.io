@@ -19,7 +19,7 @@ import o13 from './photo/overseas/13.jpg'
 export default class Overseas extends React.Component {
     render() {
         return (
-            <div className="wrapper">
+            <div className="wrapper-img">
                 <LazyLoad height={200}><img src={o1} alt={"o1"}/></LazyLoad>
                 <LazyLoad height={200}><img src={o2} alt={"o2"}/></LazyLoad>
                 <LazyLoad height={200}><img src={o3} alt={"o3"}/></LazyLoad>

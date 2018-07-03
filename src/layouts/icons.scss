@@ -1,8 +1,8 @@
 @media screen and (max-width: 599px) {
     .icons {
-        margin-left: 37%;
+        margin-left: 19%;
         margin-top: -4%;
-        position: relative;
+        position: fixed;
         a {
             line-height: 0.5em;
             font-weight: 100;
@@ -18,9 +18,7 @@
 
 @media screen and (min-width: 600px) {
     .icons {
-        margin-left: 40%;
-        margin-top: -4%;
-        position: relative;
+        margin-left: 4%;
         a {
             line-height: 0.5em;
             font-weight: 100;
@@ -37,7 +35,7 @@
 @media screen and (min-width: 900px) {
     .icons {
         margin-left: 42%;
-        position: relative;
+        position: fixed;
         a {
             line-height: 0.5em;
             font-weight: 100;
@@ -54,7 +52,7 @@
 @media screen and (min-width: 1200px) {
     .icons {
         margin-left: 4%;
-        position: relative;
+        position: fixed;
         a {
             line-height: 0.5em;
             font-weight: 100;
@@ -71,7 +69,7 @@
 @media screen and (min-width: 1800px) {
     .icons {
         margin-left: 27%;
-        position: relative;
+        position: fixed;
         a {
             line-height: 0.5em;
             font-weight: 100;

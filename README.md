@@ -4,6 +4,13 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 
 ## Updates:
 
+## 7/3/18
+    
+    * Temp layout change for iPad layouts.
+
+## 6/28/18
+
+    * Launched a draft of v3 design. 
 
 ## 6/11/18
 
@@ -47,11 +54,6 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 ## To-do:
 
     * Convert photo gallery into components for cleaner code.
-    * Add loading animations for images and fade-in for entire website.
     * Construct desktop design.
         * Implement horizontal sidebar and scrolling
-    * Create a blog section.
-        * Blog will be a compository of film/photo thoughts....?
-    * Images:
-        * analog
-
+    * Fix broken image bug.
