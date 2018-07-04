@@ -4,6 +4,11 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 
 ## Updates:
 
+## 7/4/18
+
+    * Fixed image presentation bug on mobile devices.
+    * Adjusted CSS for better readability throughout.
+
 ## 7/3/18
     
     * Temp layout change for iPad layouts.
