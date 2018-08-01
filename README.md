@@ -4,6 +4,11 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 
 ## Updates:
 
+## 7/31/18
+
+    * Fixed desktop layout for resolutions > 1800px.
+    * Changed Instagram handle.
+
 ## 7/4/18
 
     * Fixed image presentation bug on mobile devices.
@@ -62,3 +67,4 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
     * Construct desktop design.
         * Implement horizontal sidebar and scrolling
     * Fix broken image bug.
+    * Revamp photo content.
