@@ -4,6 +4,11 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 
 ## Updates:
 
+## 8/22/18
+    
+    * Removed syntax error on a README file.
+    * Updated blurb and resume.
+
 ## 7/31/18
 
     * Fixed desktop layout for resolutions > 1800px.
