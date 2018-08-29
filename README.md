@@ -1,11 +1,36 @@
 # Welcome!
 
-This is my personal website that I am currently working on. I'll be issuing what needs to be changed.
+This is my personal website, deployed in React.
+
+## Updates:
 
 
-	* Be able to exclude my sidebar from accessing core.js
-	* Work on bordering my images with CSS
-	* Add images and table/font wraps in film/... 
-		* Add a class, separating film index and specific images. Maybe use html sizing for specific images.
-	* Add analysis pieces for LoT and Synecdoche
-	* _Short_ reviews for Moonlight, Arrival
+### 3/28/18
+    
+    * Fixed breakpoints.
+    * Removed blog section temporarily.
+    * Began website redesign.
+
+### 2/3/18
+
+    * Removed EXIF data.
+    * Added Spotify link.
+
+### 1/13/18
+
+    * Fixed a minor media query issue regarding desktop/laptops when the browser window isn't fully maximized.
+    * Adjusted sidebar width.
+
+### 1/12/18
+
+    * Pushed a rough draft of the website live.
+
+
+
+Here's my to-do list:
+
+    * Convert photo gallery into components for cleaner code.
+    * Add animations to make website seem less boring.
+    * Finish blog section.
+
+

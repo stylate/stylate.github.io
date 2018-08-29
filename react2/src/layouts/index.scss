@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300|Open%20Sans:200,300|Raleway:200,300);
+
+/* universal breakpoint */
+
+html, body {
+	/* background: #232741; dark blue */
+	background: #1A1A1A; /* dark gray */
+	line-height: 1.55;
+	font-family: 'Muli', sans-serif;
+	font-weight: 100;
+	height: 100%;
+}
+
+a {
+	text-decoration: none; 
+}
+a:hover {color:#FFD1DC;}
+
+
+
+/* small screens */
+@media screen and (min-width: 20em) {
+	p {
+		letter-spacing: 0.013em;
+	}
+
+	h1 {
+		font-weight: lighter;
+		line-height: 0.313em;
+	}
+
+	.wrapper {
+		color: #FDFDFD;
+		padding: 0.2em;
+		padding-bottom: 3.125em;
+		margin-left: 8%;
+		margin-top: 15%;
+		overflow: hidden;
+	}
+
+	#links {
+		letter-spacing: 0.013em;
+	}
+}
+
+/* iphone 6/7+ */
+@media screen and (min-width: 25em) and (max-width: 39.250em) {
+	p {
+		font-size: 4vw;
+		letter-spacing: 0.013em;
+	}
+
+	h1 {
+		font-weight: lighter;
+		font-size: 6vw; 
+		line-height: 0.313em;
+	}
+
+	.wrapper {
+		color: #FDFDFD;
+		max-width: 31.25em;
+		padding: 7em;
+		padding-left: 0px;
+		padding-bottom: 3.125em;
+		margin-left: 17%;
+		margin-top: 4%;
+		overflow: hidden;
+	}
+
+	#links {
+		font-size: 3vw;
+		letter-spacing: 0.013em;
+	}
+
+	#copy {font-size:1vw;}
+
+}
+
+/* medium screens */
+@media screen and (min-width: 28.75em)  {
+	p {
+		font-size: 4vw;
+		letter-spacing: 0.013em;
+	}
+
+	h1 {
+		font-weight: lighter;
+		font-size: 6vw; 
+		line-height: 0.313em;
+	}
+
+	.wrapper {
+		color: #FDFDFD;
+		max-width: 31.25em;
+		padding: 7em;
+		padding-left: 0px;
+		padding-bottom: 3.125em;
+		margin-left: 17%;
+		margin-top: 4%;
+		overflow: hidden;
+	}
+
+	#links {
+		font-size: 2.5vw;
+		letter-spacing: 0.013em;
+	}
+
+	#copy {font-size:1vw;}
+
+}
+
+/* large screens */
+@media screen and (min-width: 40.5em) {
+	p {
+		font-size: 1.4vw;
+		letter-spacing: 0.013em;
+	}
+
+	h1 {
+		font-weight: lighter;
+		font-size: 3vw; 
+		line-height: 0.313em;
+	}
+
+	.wrapper {
+		color: #FDFDFD;
+		max-width: 31.25em;
+		padding: 7em;
+		padding-left: 0px;
+		padding-bottom: 3.125em;
+		margin-left: 45%;
+		overflow: hidden;
+	}
+
+	#links {
+		font-size: 1vw;
+		letter-spacing: 0.013em;
+	}
+
+	#copy {font-size:1vw;}
+}
+
+/* larger screens */
+@media screen and (min-width: 48em) and (max-width: 64em) {
+	p {
+		font-size: 2.5vw;
+		letter-spacing: 0.013em;
+	}
+
+	h1 {
+		font-weight: lighter;
+		font-size: 5vw; 
+		line-height: 0.313em;
+	}
+
+	.wrapper {
+		color: #FDFDFD;
+		max-width: 31.25em;
+		padding: 7em;
+		padding-left: 0px;
+		padding-bottom: 3.125em;
+		margin-left: 17%;
+		margin-top: 4%;
+		overflow: hidden;
+	}
+
+	#links {
+		font-size: 2vw;
+		letter-spacing: 0.013em;
+	}
+
+	#copy {font-size:1vw;}
+
+}
+
