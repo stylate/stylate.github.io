@@ -1,6 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import LazyLoad from 'react-lazyload'
 
 import m1 from '../content/photo/green/1.jpg'
 import m2 from '../content/photo/green/2.jpg'
@@ -23,19 +21,19 @@ export default class Green extends React.Component {
         return (
             <div className="wrapper">
                 <div className="wrapper-img">
-                <LazyLoad height={200}><img src={m1} alt={"m1"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m2} alt={"m2"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m3} alt={"m3"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m4} alt={"m4"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m5} alt={"m5"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m6} alt={"m6"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m7} alt={"m7"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m8} alt={"m8"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m9} alt={"m9"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m10} alt={"m10"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m11} alt={"m11"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m12} alt={"m12"}/></LazyLoad>
-                <LazyLoad height={200}><img src={m13} alt={"m13"}/></LazyLoad>
+                    <img src={m1} alt={"m1"}/>
+                    <img src={m2} alt={"m2"}/>
+                    <img src={m3} alt={"m3"}/>
+                    <img src={m4} alt={"m4"}/>
+                    <img src={m5} alt={"m5"}/>
+                    <img src={m6} alt={"m6"}/>
+                    <img src={m7} alt={"m7"}/>
+                    <img src={m8} alt={"m8"}/>
+                    <img src={m9} alt={"m9"}/>
+                    <img src={m10} alt={"m10"}/>
+                    <img src={m11} alt={"m11"}/>
+                    <img src={m12} alt={"m12"}/>
+                    <img src={m13} alt={"m13"}/>
                 </div>
             </div>
         );
