@@ -22,7 +22,7 @@ export default class Decal extends React.Component {
                 transitionEnter={false}
                 transitionLeave={false}>
             <h1>photographic principles, <br/><br/><br/>fall 2018</h1>
-            <p> Thursday, 6-8PM (Evans 3) </p>
+            <p> Tuesday, 6-8PM (Evans 3) </p>
                 <div className="navigation">
                     <div className="left">
                         Contact:
