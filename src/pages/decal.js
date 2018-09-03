@@ -21,7 +21,7 @@ export default class Decal extends React.Component {
                 transitionAppearTimeout={500}
                 transitionEnter={false}
                 transitionLeave={false}>
-            <h1>photographic principles, <br/><br/><br/>fall 2018</h1>
+            <h1>photography principles, <br/><br/><br/>fall 2018</h1>
             <p> Tuesday, 6-8PM (Evans 3) </p>
                 <div className="navigation">
                     <div className="left">
