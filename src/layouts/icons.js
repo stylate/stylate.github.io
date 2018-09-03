@@ -10,7 +10,7 @@ import resume from '../../docs/resume.pdf';
 class Icons extends React.Component {
     render() {
         let icon;
-        if (window.location.pathname != "/decal") {
+        if (typeof window !== 'undefined' && window.location.pathname != "/decal") {
             icon = <div className="icons">
                 <a href="https://github.com/stylate"><i className="fa fa-github fa-fw"></i></a>
                 <a href="https://instagram.com/alanstheory"><i className="fa fa-instagram fa-fw"></i></a>
