@@ -31,7 +31,7 @@ class Sidebar extends React.Component {
 
     render() {
         let side;
-        if (window.location.pathname != "/decal") {
+        if (typeof window !== 'undefined' && window.location.pathname != "/decal") {
             side = <div className="sidebar">
                     <ul>
                         <li><Link to="/" activeClassName="active">home</Link></li>
