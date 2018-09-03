@@ -7,8 +7,7 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 ## 9/2/18
 
     * Constructed a page for photo decal.
-    * Redesigned page design.
-    * Revamped photo section and included an "about me."
+    * Revamped page design and photo section.
 
 ## 8/22/18
     
