@@ -1,7 +1,16 @@
+/* phone */
+@media screen and (max-width: 599px) {
+    .drop {
+        margin-left: -7%;
+        margin-top: -5%;
+    }
+}
+
+
 @media screen and (min-width: 1200px) {
     .drop {
-        margin-left: 3%;
-        margin-top: 2%;
+        margin-left: -4%;
+        margin-top: 14%;
     }
 }
 

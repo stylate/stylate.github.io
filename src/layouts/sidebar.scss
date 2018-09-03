@@ -6,12 +6,11 @@
     src: url("Fabrica.otf") format("opentype");
 }
 
-
 @media screen and (max-width: 599px) {
     .sidebar {
         background: #FFFFFF;
         margin-left: 0%;
-        margin-top: 5%;
+        margin-top: 12%;
         position: relative;
         height: 20vh;
         width: 80vw;
@@ -33,9 +32,9 @@
             li {
                 list-style-type: none;
                 a {
-                    line-height: 0.6em;
+                    line-height: 0.9em;
                     font-weight: 100;
-                    font-size: 5.3vw;
+                    font-size: 5vw;
                     text-decoration: none;
                     color: #000000;
                     &:hover {
@@ -59,7 +58,7 @@
         background: #FFFFFF;
         line-height: 1.55;
         margin-left: 0%;
-        margin-top: 5%;
+        margin-top: 10%;
         position: relative;
         height: 20vh;
         width: 80vw;
@@ -71,7 +70,6 @@
             width: 24em;
             padding: 5%;
         }
-
 
         ul {
             line-height: 0.2em;
@@ -147,15 +145,15 @@
     .sidebar {
         background: #FFFFFF;
         line-height: 1.55;
-        margin-left: 70%;
-        margin-top: 0%;
-        position: relative;
+        margin-left: 80%;
+        margin-top: -12%;
+        position: fixed;
         height: 20vh;
         width: 80vw;
 
         h1 {
             font-size: 5vw;
-            font-weight: 600;
+            font-weight: 500;
             line-height: 0;
             width: 24em;
             padding: 5%;
@@ -169,9 +167,10 @@
             li {
                 list-style-type: none;
                 a {
-                    font-size: 1.6vw;
+                    font-size: 1.3vw;
                     text-decoration: none;
                     color: #000000;
+                    line-height: 90%;
                     &:hover {
                         color: #000000;
                     }
@@ -191,9 +190,9 @@
     .sidebar {
         background: #FFFFFF;
         line-height: 1.55;
-        margin-left: 45%;
-        margin-top: 27%;
-        position: relative;
+        margin-left: 80%;
+        margin-top: 0%;
+        position: fixed;
         height: 20vh;
         width: 80vw;
 

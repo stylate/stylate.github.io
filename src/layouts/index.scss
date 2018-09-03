@@ -11,7 +11,7 @@ html, body {
 	/* background: #1A1A1A; dark blue */
 	background: #FFFFFF; /* dark gray */
 	line-height: 1.55;
-	font-family: 'Fabrica', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
 	height: 100%;
 }
@@ -28,12 +28,11 @@ a:hover {color:#FFD1DC;}
 		font-size: 4.5vw;
 		letter-spacing: 0.013em;
         width: 16em;
-        margin-top: 43%;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 7.5vw; 
+		font-size: 9vw; 
 		line-height: 0em;
         width: 24em;
 	}
@@ -51,7 +50,7 @@ a:hover {color:#FFD1DC;}
 		max-width: 50em;
 		padding: 3em;
 		padding-left: 0px;
-        margin-top: 0%;
+        margin-top: -5%;
 		margin-left: 10%;
 		overflow: hidden;
 	}
@@ -80,7 +79,6 @@ a:hover {color:#FFD1DC;}
 		letter-spacing: 0.013em;
 		padding-bottom: 3.125em;
 		width: 17em;
-		margin-top: 35%;
 	}
 
 	h1 {
@@ -102,7 +100,7 @@ a:hover {color:#FFD1DC;}
 		max-width: 50em;
 		padding: 3em;
 		padding-left: 0px;
-        margin-top: 7%;
+        margin-top: 0%;
 		margin-left: 14%;
 		overflow: hidden;
 	}
@@ -112,7 +110,7 @@ a:hover {color:#FFD1DC;}
 		padding: 3em;
 		padding-left: 0px;
         margin-top: 0%;
-		margin-left: 18%;
+		margin-left: 14%;
 		overflow: hidden;
 	}
 
@@ -130,13 +128,12 @@ a:hover {color:#FFD1DC;}
 		font-size: 4vw;
 		letter-spacing: 0.013em;
         width: 20em;
-        margin-top: 36%;
 	}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 5vw; 
-		line-height: 0.313em;
+		font-size: 9vw; 
+		line-height: 0.5em;
 	}
 
 	img {
@@ -152,7 +149,7 @@ a:hover {color:#FFD1DC;}
 		padding: 3em;
 		padding-left: 0px;
 		margin-left: 6%;
-        margin-top: 10%;
+        margin-top: 3%;
 		overflow: hidden;
 	}
 
@@ -179,7 +176,7 @@ a:hover {color:#FFD1DC;}
 		font-size: 1.6vw;
 		letter-spacing: 0.013em;
 		width: 20em;
-		margin-top: 9%;
+		margin-top: 0%;
 	}
 
 	h1 {
@@ -191,8 +188,8 @@ a:hover {color:#FFD1DC;}
 	img {
         margin-left: auto;
         margin-right: auto;
-        max-width: 40%;
-        max-height: 40%;
+        max-width: 80%;
+        max-height: 80%;
         height: auto;
         width: auto;
         display: block;
@@ -203,15 +200,15 @@ a:hover {color:#FFD1DC;}
 		max-width: 50em;
 		padding: 3em;
 		padding-left: 0px;
-        margin-top: -5%;
-		margin-left: -25%;
+        margin-top: 40%;
+		margin-left: -20%;
 		overflow: hidden;
 	}
 
     .wrapper-img {
         text-align: center;
         margin-left: -10%;
-        margin-top: -25%;
+        margin-top: -50%;
     }
 
 	#links {
@@ -228,7 +225,6 @@ a:hover {color:#FFD1DC;}
 		font-size: 1.5vw;
 		letter-spacing: 0.013em;
 		width: 20em;
-		margin-top: 25%;
 	}
 
 	h1 {
@@ -250,9 +246,18 @@ a:hover {color:#FFD1DC;}
 		padding: 3em;
 		padding-left: 0px;
 		margin-left: -43%;
-		margin-top: -18%;
+		margin-top: 60%;
 		overflow: hidden;
 	}
+
+    .wrapper-teaching {
+		max-width: 50em;
+		padding: 3em;
+		padding-left: 0px;
+		margin-left: -43%;
+		margin-top: 60%;
+		overflow: hidden;
+    }
 
 	.wrapper-img {
 		max-width: 50em;

@@ -55,6 +55,7 @@ const TemplateWrapper = ({ children }) => (
       transitionEnter={false}
       transitionLeave={false}>    
     <Sidebar/>
+    <Icons/>
     </CSSTransitionGroup>
     <div
       style={{

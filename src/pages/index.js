@@ -20,10 +20,10 @@ export default class IndexPage extends React.Component {
         transitionAppearTimeout={500}
         transitionEnter={false}
         transitionLeave={false}>
-            <p>Hello! I'm a fourth-year undergrad who is studying computer science at UC Berkeley. I interned this past summer as a Software Engineer at Fox Networks and worked with video-centric products! Aside from my passion for technology, I am also an advocate of the visual medium, partaking in film and photography.</p>
-            
-            <h5>**website currently in progress, only viewable on MOBILE devices.</h5>
 
+            <h1>alan nguyen—</h1>
+            <p> hello! i'm currently a fourth year undergrad at UC Berkeley studying computer science. my passions lie in intersecting technology and media of all sorts. <br/><br/>
+            learn more <Link to="/about" activeClassName="active">about me!</Link></p>
         </CSSTransitionGroup>
             </div>
         );

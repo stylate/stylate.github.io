@@ -9,7 +9,7 @@ import './sidebar.scss';
 import './icons/scss/font-awesome.scss';
 import resume from '../../docs/resume.pdf';
 import Dropdown from './drop';
-import Icons from './icons';
+
 
 /* blueprint:
  *  - fix dropdown and add animation
@@ -30,16 +30,24 @@ class Sidebar extends React.Component {
     }
 
     render() {
-        return (
-            <div className="sidebar">
-                <h1>ALAN NGUYEN</h1>
+        let side;
+        if (window.location.pathname != "/decal") {
+            side = <div className="sidebar">
+                    <ul>
+                        <li><Link to="/" activeClassName="active">home</Link></li>
+                        <li><Link to="/" activeClassName="active">about</Link></li>
+                        <div id="misc"><li><Dropdown/></li></div>
+                    </ul> 
+                </div>
+        } else {
+            side = <div className="sidebar">
                 <ul>
                     <li><Link to="/" activeClassName="active">home</Link></li>
-                    <li><Link to="/" activeClassName="active">blog</Link></li>
-                    <div id="misc"><li><Dropdown/></li></div>
-                </ul> 
-                <Icons/>
-            </div>
+                </ul>
+                </div>
+        }
+        return (
+            side
         )
     }
 }
