@@ -13,7 +13,7 @@ import Icons from './icons'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title=""
+      title="alan"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
