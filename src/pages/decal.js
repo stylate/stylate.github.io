@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../layouts/decal.scss'
+import syllabus from '../../docs/syllabus-fa18.pdf'
 
 export default class Decal extends React.Component {
     render() {
@@ -36,11 +37,11 @@ export default class Decal extends React.Component {
                         <b>Resources:</b> <br/>
                         <a href="https://innovativedesign.club/">Innovative Design</a><br/>
                         <a href="/">Inspiration Sheet</a><br/>
-                        <a href="/">Syllabus</a>
+                        <a href={syllabus}>Syllabus</a>
                     </div>
                     <div className="slides">
                         <b>Slides:</b> <br/>
-                        <a href="/">Week 1: Introduction</a><br/>
+                        <a href="https://docs.google.com/presentation/d/1Njo6M9OSyVV9uivp_pY2f6Os_TA-RzCYrcpkzD5BLko/edit?usp=sharing">Week 1: Introduction</a><br/>
                     </div>
                 </div>
             </CSSTransitionGroup>
