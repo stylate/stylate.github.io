@@ -36,7 +36,7 @@ export default class Decal extends React.Component {
                     <div className="resources">
                         <b>Resources:</b> <br/>
                         <a href="https://innovativedesign.club/">Innovative Design</a><br/>
-                        <a href="/">Inspiration Sheet</a><br/>
+                        <a href="https://docs.google.com/spreadsheets/d/1hSR9HlZYljofU44mXLsjmLFbuUJcmW7Vofw_o5-ivqI/edit?usp=sharing">Inspiration Sheet</a><br/>
                         <a href={syllabus}>Syllabus</a>
                     </div>
                     <div className="slides">
