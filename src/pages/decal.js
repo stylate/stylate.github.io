@@ -29,7 +29,7 @@ export default class Decal extends React.Component {
                         Contact:
                     </div>
                     <div className="info">
-                        OH: Sather Gate, W-F 9-10AM (Alan) <br/>Tuesday 12-1PM, Thursday 11-12PM (Jackie) <br/>
+                        OH: Sather Gate, W 11-1PM (Alan) <br/>
                         <a href="mailto:nguyenalan@berkeley.edu">nguyenalan@berkeley.edu</a><br/>
                         <a href="mailto:jackiexu@berkeley.edu">jackiexu@berkeley.edu</a>
                     </div>
