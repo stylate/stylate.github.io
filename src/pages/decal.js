@@ -42,6 +42,7 @@ export default class Decal extends React.Component {
                     <div className="slides">
                         <b>Slides:</b> <br/>
                         <a href="https://docs.google.com/presentation/d/1Njo6M9OSyVV9uivp_pY2f6Os_TA-RzCYrcpkzD5BLko/edit?usp=sharing">Week 1: Introduction</a><br/>
+                        <a href="https://docs.google.com/presentation/d/1cjM1qIWg2gW6wZgC9QS1Rtz_LA9vsflEZNi23Z6wuqk/edit?usp=sharing">Week 2: Exposure, Composition</a><br/>
                     </div>
                 </div>
             </CSSTransitionGroup>
