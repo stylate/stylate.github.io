@@ -22,7 +22,7 @@ export default class IndexPage extends React.Component {
         transitionLeave={false}>
 
             <h1>alan nguyen—</h1>
-            <p> hello! i'm currently a fourth year undergrad at UC Berkeley studying computer science. my passions lie in intersecting technology and media of all sorts. <br/><br/>
+            <p> hello! i'm currently a fourth year undergrad at UC Berkeley studying computer science. my passions lie in intersecting technology and media of all sorts. <br/><br/></p>
         </CSSTransitionGroup>
             </div>
         );
