@@ -23,7 +23,6 @@ export default class IndexPage extends React.Component {
 
             <h1>alan nguyen—</h1>
             <p> hello! i'm currently a fourth year undergrad at UC Berkeley studying computer science. my passions lie in intersecting technology and media of all sorts. <br/><br/>
-            learn more <Link to="/about" activeClassName="active">about me!</Link></p>
         </CSSTransitionGroup>
             </div>
         );
