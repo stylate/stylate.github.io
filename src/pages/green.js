@@ -15,7 +15,6 @@ import m12 from '../content/photo/green/12.jpg'
 import m13 from '../content/photo/green/13.jpg'
 
 
-
 export default class Green extends React.Component {
     render() {
         return (
