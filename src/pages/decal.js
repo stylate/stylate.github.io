@@ -46,8 +46,8 @@ export default class Decal extends React.Component {
                         <a href="https://docs.google.com/presentation/d/1qO2upR4d_E56yqIfYJulNcLOBvjQuHZwqFP9lUjHucQ/edit?usp=sharing">Week 3: Composition, Lighting, Lightroom</a><br/>
                         <a href="https://docs.google.com/presentation/d/1wdaT1fnmnFPaHToxCh_Z2l1SdeEVB9qy_cvirKl0EG0/edit?usp=sharing">Week 4: Color</a><br/>
                         <a href="https://docs.google.com/presentation/d/1EUK8ZrfB3UcYvBnBACY4LRXqHZygrZbj0s3Dsm74g_Y/edit?usp=sharing">Week 5: Portraits</a><br/>
-                        <a href="https://docs.google.com/presentation/d/1L8Hl8JxSBghpcUBrlt6YASNfsca3h87fD_nQ1ExQr5E/edit?usp=sharing">Week 6: Portraits, Landscape</a><br/>
-                        Week 7: Street, Lifestyle<br/>
+                        <a href="https://docs.google.com/presentation/d/1L8Hl8JxSBghpcUBrlt6YASNfsca3h87fD_nQ1ExQr5E/edit?usp=sharing">Week 6: Portraits/Lifestyle, Landscape</a><br/>
+                        Week 7: Photojournalism, Street<br/>
                         Week 8: Presentations<br/>
                         Week 9: Student's Choice<br/>
                         Week 10: Gear, Film<br/>
