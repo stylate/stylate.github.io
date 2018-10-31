@@ -4,6 +4,11 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 
 ## Updates:
 
+## 10/29/18
+
+    * Begin code refactoring.
+    * Added logo to homepage. 
+
 ## 9/2/18
 
     * Constructed a page for photo decal.

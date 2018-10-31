@@ -37,6 +37,7 @@ export default class Decal extends React.Component {
                         <b>Resources:</b> <br/>
                         <a href="https://innovativedesign.club/">Innovative Design</a><br/>
                         <a href="https://docs.google.com/spreadsheets/d/1hSR9HlZYljofU44mXLsjmLFbuUJcmW7Vofw_o5-ivqI/edit?usp=sharing">Inspiration Sheet</a><br/>
+                        <a href="https://docs.google.com/spreadsheets/d/1PArD1oQ9y4Q8LU_dOfJamlJugfHgSzqSV2-zaDdFen8/edit?usp=sharing">Final Topics</a><br/>
                         <a href={syllabus}>Syllabus</a>
                     </div>
                     <div className="slides">
@@ -49,8 +50,9 @@ export default class Decal extends React.Component {
                         <a href="https://docs.google.com/presentation/d/1L8Hl8JxSBghpcUBrlt6YASNfsca3h87fD_nQ1ExQr5E/edit?usp=sharing">Week 6: Portraits, Landscape</a><br/>
                         <a href="https://docs.google.com/presentation/d/1YiKsoH8M44m0hMMD9CsgBI_ipIRqxftc7c_bgC74PLk/edit?usp=sharing">Week 7: Street, Photojournalism</a><br/>
                         <a href="https://docs.google.com/presentation/d/14o40kcqThuf2wK4tjzF_-i2Dl2jrXyBC9bhfLP2bR7M/edit?usp=sharing">Week 8: Presentations</a><br/>
-                        Week 9: Student's Choice<br/>
-                        Week 10: Gear, Film<br/>
+                        <a href="https://docs.google.com/presentation/d/1FQIpoIpxR_1PGuZy95E5MCfF5sqz37vruprG2AzU550/edit?usp=sharing">Week 9: Editing Styles, Layout</a><br/>
+                        Week 10: Studio<br/>
+                        Week 11: Gear, Film<br/>
                     </div>
                 </div>
             </CSSTransitionGroup>
