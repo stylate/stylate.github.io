@@ -52,6 +52,7 @@ export default class Decal extends React.Component {
                         <a href="https://docs.google.com/presentation/d/14o40kcqThuf2wK4tjzF_-i2Dl2jrXyBC9bhfLP2bR7M/edit?usp=sharing">Week 8: Presentations</a><br/>
                         <a href="https://docs.google.com/presentation/d/1FQIpoIpxR_1PGuZy95E5MCfF5sqz37vruprG2AzU550/edit?usp=sharing">Week 9: Editing Styles, Layout</a><br/>
                         <a href="https://docs.google.com/presentation/d/12YntOHZ5dR6b45CYR8WDU5RBR_PuEnklF8hYnGW6QJs/edit?usp=sharing">Week 10: Gear, Film</a><br/>
+                        <a href="https://docs.google.com/presentation/d/1FL4pebtAK7CbDDJuPYYA_hxwYZLmG8CvcKwckfsdMdQ/edit?usp=sharing">Week 11: Studio</a><br/>
                     </div>
                 </div>
             </CSSTransitionGroup>
