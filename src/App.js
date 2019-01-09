@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
+// import ReactGA from 'react-ga';
+// import { withRouter, Route, Redirect } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
+/*
+ReactGA.initialize('UA-131895892-1');
+
+function trackViews() {
+    ReactGA.set({ page: window.location.pathname });
+    ReactGA.pageview(window.location.pathname);
+}
+*/
 class App extends Component {
   render() {
     return (
