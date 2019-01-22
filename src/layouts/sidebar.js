@@ -40,7 +40,7 @@ class Sidebar extends React.Component {
                     </ul> 
                 </div>
         } else {
-            side = <div className="sidebar" style="display: none">
+            side = <div className="sidebar">
                 <ul>
                     <li><Link to="/" activeClassName="active">home</Link></li>
                 </ul>
