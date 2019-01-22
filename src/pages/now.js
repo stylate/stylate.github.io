@@ -24,11 +24,11 @@ export default class Now extends React.Component {
             <h3>Website Redesign</h3>
             <p>This website's codebase is at the moment very, very messy (and outdated)! I've been using Gatsby and CSS Modules to maintain this website and its aesthetics. </p>
             
-            <p>I'm currently in the process of learning more front-end web development for personal enjoyment, while simultaneously switching to styled components, Jekyll, and React and building the website from scratch!</p>
+            <p>I'm in the process of learning more front-end web development for personal enjoyment, while simultaneously switching to styled components, Jekyll, and React and building the website from scratch!</p>
             <p>I also plan on completely separating my photography from this personal website in order to maintain full creative control over their respective web designs without compromise.</p>
 
             <h3>Education</h3>
-            <p>This semester is currently dedicated to me being engaged in more project-based work, as well as tutoring! I'm enrolled in a series of project-based computer science courses:</p>
+            <p>This semester is dedicated to me being engaged in more project-based work, as well as tutoring! I'm enrolled in a series of project-based computer science courses:</p>
             <ul>
                 <li>Computer Graphics</li>
                 <li>Computer Security</li>
