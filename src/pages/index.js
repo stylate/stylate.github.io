@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { CSSTransitionGroup } from 'react-transition-group'
+import Icons from '../layouts/icons'
+import Sidebar from '../layouts/sidebar'
 
 export default class IndexPage extends React.Component {
     render() {
@@ -13,7 +15,9 @@ export default class IndexPage extends React.Component {
         }
 
         return (
-            <div className="wrapper">
+            <div className="container">
+            <Sidebar/>
+            <div className="home-wrapper">
             <CSSTransitionGroup
         transitionName="fade"
         transitionAppear={true}
@@ -21,9 +25,11 @@ export default class IndexPage extends React.Component {
         transitionEnter={false}
         transitionLeave={false}>
 
-            <h1>alan nguyen—</h1>
+            <h2>alan nguyen—</h2>
             <p> hello! i'm currently a fourth year undergrad at UC Berkeley studying computer science. my passions lie in intersecting technology and media of all sorts. <br/><br/></p>
+            <Icons/>
         </CSSTransitionGroup>
+            </div>
             </div>
         );
     }
