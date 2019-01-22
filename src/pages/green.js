@@ -1,4 +1,5 @@
 import React from 'react'
+import Sidebar from '../layouts/sidebar'
 
 import m1 from '../content/photo/green/1.jpg'
 import m2 from '../content/photo/green/2.jpg'
@@ -18,7 +19,8 @@ import m13 from '../content/photo/green/13.jpg'
 export default class Green extends React.Component {
     render() {
         return (
-            <div className="wrapper">
+            <div className="container">
+                <Sidebar/>
                 <div className="wrapper-img">
                     <img src={m1} alt={"m1"}/>
                     <img src={m2} alt={"m2"}/>

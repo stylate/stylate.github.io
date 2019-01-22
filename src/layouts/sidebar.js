@@ -35,12 +35,12 @@ class Sidebar extends React.Component {
             side = <div className="sidebar">
                     <ul>
                         <li><Link to="/" activeClassName="active">home</Link></li>
-                        <li><Link to="/" activeClassName="active">about</Link></li>
+                        <li><Link to="/now" activeClassName="active">now</Link></li>
                         <div id="misc"><li><Dropdown/></li></div>
                     </ul> 
                 </div>
         } else {
-            side = <div className="sidebar">
+            side = <div className="sidebar" style="display: none">
                 <ul>
                     <li><Link to="/" activeClassName="active">home</Link></li>
                 </ul>

@@ -31,7 +31,7 @@ a:hover {color:#FFD1DC;}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 9vw; 
+		font-size: 10vw; 
 		line-height: 0em;
         width: 24em;
 	}
@@ -45,13 +45,49 @@ a:hover {color:#FFD1DC;}
         padding-bottom: -5%;
     }
 
-	.wrapper {
+    .container {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .blog-wrapper {
+        width: 70em;
+        margin-left: 9%;
+        margin-top: 21%;
+        
+        p {
+            font-size: 4vw;
+            margin-bottom: 3%;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Karla';
+        }
+
+        h1 {
+            font-size: 8vw;
+        }
+
+        h3 {
+            font-size: 5vw;
+        }
+
+        li {
+            font-size: 4vw;
+        }
+
+    }
+
+	.home-wrapper {
 		max-width: 50em;
 		padding: 3em;
-		padding-left: 0px;
-        margin-top: -5%;
-		margin-left: 10%;
+		padding-left: 10px;
+        margin-top: 10%;
+		margin-left: 6%;
 		overflow: hidden;
+        h1 {
+            font-size: 8vw;
+        }
 	}
 
 	.wrapper-img {
@@ -82,7 +118,7 @@ a:hover {color:#FFD1DC;}
 
 	h1 {
 		font-weight: lighter;
-		font-size: 6.0vw; 
+		font-size: 8vw; 
 		line-height: 0.313em;
 	}
 
@@ -95,16 +131,53 @@ a:hover {color:#FFD1DC;}
         width: auto;
     }
 
-	.wrapper {
+    .container {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .blog-wrapper {
+        width: 70em;
+        margin-left: 7%;
+        margin-top: 21%;
+        
+        p {
+            font-size: 4vw;
+            margin-bottom: 0%;
+            width: 18em;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Karla';
+        }
+
+        h1 {
+            font-size: 8vw;
+        }
+
+        h3 {
+            font-size: 5vw;
+        }
+
+        li {
+            font-size: 4vw;
+        }
+
+    }
+
+	.home-wrapper {
 		max-width: 50em;
 		padding: 3em;
-		padding-left: 0px;
-        margin-top: 0%;
-		margin-left: 14%;
+		padding-left: 10px;
+        margin-top: 10%;
+		margin-left: 6%;
 		overflow: hidden;
+        h1 {
+            font-size: 8vw;
+        }
 	}
-
-	.wrapper-img {
+	
+    .wrapper-img {
 		max-width: 50em;
 		padding: 3em;
 		padding-left: 0px;
@@ -143,13 +216,51 @@ a:hover {color:#FFD1DC;}
         width: auto;
     }
 
-	.wrapper {
+    .container {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .blog-wrapper {
+        width: 70em;
+        margin-left: 4.5%;
+        margin-top: 21%;
+        
+        p {
+            font-size: 4vw;
+            margin-bottom: -2%;
+            width: 18em;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Karla';
+        }
+
+        h1 {
+            font-size: 8vw;
+            margin-bottom: 2%;
+        }
+
+        h3 {
+            font-size: 5vw;
+        }
+
+        li {
+            font-size: 4vw;
+        }
+
+    }
+
+	.home-wrapper {
 		max-width: 50em;
 		padding: 3em;
-		padding-left: 0px;
-		margin-left: 6%;
-        margin-top: 3%;
+		padding-left: 10px;
+        margin-top: 10%;
+		margin-left: 3.5%;
 		overflow: hidden;
+        h1 {
+            font-size: 8vw;
+        }
 	}
 
 	.wrapper-img {
@@ -171,17 +282,10 @@ a:hover {color:#FFD1DC;}
 
 /* desktop */
 @media screen and (min-width: 1200px) {
-	p {
-		font-size: 1.6vw;
-		letter-spacing: 0.013em;
-		width: 20em;
-		margin-top: 0%;
-	}
-
-	h1 {
-		font-weight: lighter;
-		font-size: 3.6vw; 
-		line-height: 0.5em;
+	h2 {
+	    font-weight: lighter;
+		font-size: 4.1vw; 
+	    line-height: 0.5em;
 	}
 
 	img {
@@ -195,19 +299,57 @@ a:hover {color:#FFD1DC;}
         vertical-align: top;
     }
 
-	.wrapper {
+    .container {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .blog-wrapper {
+        float: left;
+        width: 70em;
+        margin-top: 10%;
+
+        h1, h2, h3 {
+            font-family: 'Karla';
+        }
+
+	    h1 {
+		    font-weight: lighter;
+		    font-size: 3.6vw; 
+		    line-height: 0.5em;
+	    }
+
+        h3 {
+            font-size: 2vw;
+        }
+
+        p {
+            font-size: 1.5vw;
+            width: 30em;
+		    letter-spacing: 0.013em;
+	        margin-bottom: -2%;
+        }
+
+        li {
+            font-size: 1.5vw;
+        }
+    }
+
+	.home-wrapper {
 		max-width: 50em;
+        float: left;
 		padding: 3em;
-		padding-left: 0px;
+		padding-left: 10px;
         margin-top: 40%;
-		margin-left: -20%;
+		margin-left: -10%;
 		overflow: hidden;
 	}
 
     .wrapper-img {
         text-align: center;
+        float: left;
         margin-left: -10%;
-        margin-top: -50%;
+        margin-top: -35%;
     }
 
 	#links {
@@ -220,16 +362,11 @@ a:hover {color:#FFD1DC;}
 
 /* desktop, big */
 @media screen and (min-width: 1800px) {
-	p {
-		font-size: 1.5vw;
-		letter-spacing: 0.013em;
-		width: 20em;
-	}
-
-	h1 {
+	h2 {
 		font-weight: lighter;
-		font-size: 3.3vw; 
+		font-size: 4vw; 
 		line-height: 0.313em;
+        margin-bottom: 7%;
 	}
 
 	img {
@@ -240,30 +377,62 @@ a:hover {color:#FFD1DC;}
         width: auto;
     }
 
-	.wrapper {
-		max-width: 50em;
+    .container {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .blog-wrapper {
+        float: left;
+        width: 50em;
+        margin-top: 10%;
+        margin-left: -40%;
 		padding: 3em;
-		padding-left: 0px;
-		margin-left: -43%;
-		margin-top: 38%;
+		padding-left: 10px;
+
+        h1, h2, h3 {
+            font-family: 'Karla';
+        }
+
+	    h1 {
+		    font-weight: lighter;
+		    font-size: 3.6vw; 
+		    line-height: 0.5em;
+	    }
+
+        h3 {
+            font-size: 2vw;
+        }
+
+        p {
+            font-size: 1.5vw;
+            width: 30em;
+		    letter-spacing: 0.013em;
+	        margin-bottom: -2%;
+        }
+
+        li {
+            font-size: 1.5vw;
+        }
+    }
+
+	.home-wrapper {
+		max-width: 50em;
+        float: left;
+		padding: 3em;
+		padding-left: 10px;
+        margin-top: 50%;
+		margin-left: -40%;
 		overflow: hidden;
 	}
-
-    .wrapper-teaching {
-		max-width: 50em;
-		padding: 3em;
-		padding-left: 0px;
-		margin-left: -43%;
-		margin-top: 60%;
-		overflow: hidden;
-    }
 
 	.wrapper-img {
 		max-width: 50em;
 		padding: 3em;
 		padding-left: 0px;
-		margin-left: 10%;
-		margin-top: -45%;
+		margin-left: -20%;
+		margin-top: -20%;
+        float: left;
 		overflow: hidden;
 	}
 	#links {

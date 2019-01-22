@@ -25,8 +25,6 @@ const TemplateWrapper = ({ children }) => (
       transitionAppearTimeout={500}
       transitionEnter={false}
       transitionLeave={false}>    
-    <Sidebar/>
-    <Icons/>
     </CSSTransitionGroup>
     <div
       style={{
