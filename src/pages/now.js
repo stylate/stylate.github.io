@@ -39,7 +39,7 @@ export default class Now extends React.Component {
             <p>I started a fun little side project called <b>Synthony</b>! It's essentially a music visualizer built in WebGL and ThreeJS. I've grown a bigger interest in computer graphics as of late and thought that this would be fun to work on. Feel free to track my progress <a href="https://github.com/stylate/Synthony">here</a>.</p>
 
             <h3>Spotify</h3>
-            <p>One of my fun facts is that my Spotify playlists are color coded based on album cover and the "mood" that they feed off. I've been working with a team of three to turn this cool, super extra idea into code. Feel free to track its progress <a href="https://github.com/Kaden-Dippe/spotify-colorized">here</a>.</p>
+            <p>One of my fun facts is that my Spotify playlists are color coded based on album cover and the "mood" that they feed off. I've been working with a team of three to turn this cool, super extra idea into code. Feel free to track its progress <a href="https://github.com/stylate/colorizer/tree/dev">here</a>.</p>
 
             <h3>Photo/Film</h3>
             <p>I'm currently co-leading a photography team as part of <a href="https://innovativedesign.club/">Innovative Design</a>, as well as making an attempt to visit a lot of older directors and their work. Check out the past movies I've watched <a href="https://letterboxd.com/carbine/">here</a>!!</p>
