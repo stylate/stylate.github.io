@@ -30,7 +30,7 @@ export default class Now extends React.Component {
             <p>Aside from redesigning my personal website, I'm also working with the web team at <a href="http://www.baremagazine.org">BARE Magazine</a> on redesigning the entire website.</p>
 
             <h3>Education</h3>
-            <p>This semester is dedicated to me being engaged in more project-based work, as well as tutoring! I'm enrolled in a series of project-based computer science courses:</p>
+            <p>This semester is dedicated to me being engaged in more project-based work. I'm enrolled in a series of project-based computer science courses:</p>
             <ul>
                 <li>Computer Graphics</li>
                 <li>Computer Security</li>
