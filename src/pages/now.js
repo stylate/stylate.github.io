@@ -25,7 +25,9 @@ export default class Now extends React.Component {
             <p>This website's codebase is at the moment very, very messy (and outdated)! I've been using Gatsby and CSS Modules to maintain this website and its aesthetics. </p>
             
             <p>I'm in the process of learning more front-end web development for personal enjoyment, while simultaneously switching to styled components, Jekyll, and React and building the website from scratch!</p>
-            <p>I also plan on completely separating my photography from this personal website in order to maintain full creative control over their respective web designs without compromise.</p>
+            <p>I plan on completely separating my photography from this personal website in order to maintain full creative control over their respective web designs without compromise.</p>
+
+            <p>Aside from redesigning my personal website, I'm also working with the web team at <a href="http://www.baremagazine.org">BARE Magazine</a> on redesigning the entire website.</p>
 
             <h3>Education</h3>
             <p>This semester is dedicated to me being engaged in more project-based work, as well as tutoring! I'm enrolled in a series of project-based computer science courses:</p>
