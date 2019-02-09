@@ -25,10 +25,12 @@ export default class Now extends React.Component {
             <p>This website's codebase is at the moment very, very messy (and outdated)! I've been using Gatsby and CSS Modules to maintain this website and its aesthetics. </p>
             
             <p>I'm in the process of learning more front-end web development for personal enjoyment, while simultaneously switching to styled components, Jekyll, and React and building the website from scratch!</p>
-            <p>I also plan on completely separating my photography from this personal website in order to maintain full creative control over their respective web designs without compromise.</p>
+            <p>I plan on completely separating my photography from this personal website in order to maintain full creative control over their respective web designs without compromise.</p>
+
+            <p>Aside from redesigning my personal website, I'm also working with the web team at <a href="http://www.baremagazine.org">BARE Magazine</a> on redesigning the entire website.</p>
 
             <h3>Education</h3>
-            <p>This semester is dedicated to me being engaged in more project-based work, as well as tutoring! I'm enrolled in a series of project-based computer science courses:</p>
+            <p>This semester is dedicated to me being engaged in more project-based work. I'm enrolled in a series of project-based computer science courses:</p>
             <ul>
                 <li>Computer Graphics</li>
                 <li>Computer Security</li>
@@ -39,7 +41,7 @@ export default class Now extends React.Component {
             <p>I started a fun little side project called <b>Synthony</b>! It's essentially a music visualizer built in WebGL and ThreeJS. I've grown a bigger interest in computer graphics as of late and thought that this would be fun to work on. Feel free to track my progress <a href="https://github.com/stylate/Synthony">here</a>.</p>
 
             <h3>Spotify</h3>
-            <p>One of my fun facts is that my Spotify playlists are color coded based on album cover and the "mood" that they feed off. I've been working with a team of three to turn this cool, super extra idea into code. Feel free to track its progress <a href="https://github.com/Kaden-Dippe/spotify-colorized">here</a>.</p>
+            <p>One of my fun facts is that my Spotify playlists are color coded based on album cover and the "mood" that they feed off. I've been working with a team of three to turn this cool, super extra idea into code. Feel free to track its progress <a href="https://github.com/stylate/colorizer/tree/dev">here</a>.</p>
 
             <h3>Photo/Film</h3>
             <p>I'm currently co-leading a photography team as part of <a href="https://innovativedesign.club/">Innovative Design</a>, as well as making an attempt to visit a lot of older directors and their work. Check out the past movies I've watched <a href="https://letterboxd.com/carbine/">here</a>!!</p>
