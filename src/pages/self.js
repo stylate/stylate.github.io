@@ -17,6 +17,7 @@ import m12 from '../content/photo/self/12.jpg'
 import m13 from '../content/photo/self/13.jpg'
 import m14 from '../content/photo/self/14.jpg'
 import m15 from '../content/photo/self/15.jpg'
+import m15 from '../content/photo/self/16.jpg'
 import outro from '../content/photo/self/outro.jpg'
 
 
@@ -42,6 +43,7 @@ export default class Green extends React.Component {
                     <img src={m13} alt={"m13"}/>
                     <img src={m14} alt={"m14"}/>
                     <img src={m15} alt={"m15"}/>
+                    <img src={m16} alt={"m16"}/>
                     <img src={outro} alt={"outro"}/>
                 </div>
             </div>
