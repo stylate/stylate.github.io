@@ -4,6 +4,11 @@ This is my personal website, deployed in React/Gatsby, HTML, and CSS.
 
 ## Updates:
 
+## 3/22/18
+
+    * Removed /decal from public view; still accessible.
+    * Added /self under photo tab.
+
 ## 10/29/18
 
     * Begin code refactoring.
