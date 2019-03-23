@@ -17,7 +17,7 @@ import m12 from '../content/photo/self/12.jpg'
 import m13 from '../content/photo/self/13.jpg'
 import m14 from '../content/photo/self/14.jpg'
 import m15 from '../content/photo/self/15.jpg'
-import m15 from '../content/photo/self/16.jpg'
+import m16 from '../content/photo/self/16.jpg'
 import outro from '../content/photo/self/outro.jpg'
 
 
