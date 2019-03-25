@@ -32,17 +32,17 @@ export default class Green extends React.Component {
                     <img src={intro} alt={"intro"}/>
                     <img src={m1} alt={"m1"}/>
                     <img src={m2} alt={"m2"}/>
-                    <img src={m3} alt={"m3"}/>
-                    <img src={train} alt={"train"}/>
                     <img src={m4} alt={"m4"}/>
                     <img src={m5} alt={"m5"}/>
                     <img src={traffic} alt={"traffic"}/>
+                    <img src={train} alt={"train"}/>
+                    <img src={m3} alt={"m3"}/>
+                    <img src={m11} alt={"m11"}/>
                     <img src={m6} alt={"m6"}/>
                     <img src={m7} alt={"m7"}/>
                     <img src={m8} alt={"m8"}/>
                     <img src={m9} alt={"m9"}/>
                     <img src={m10} alt={"m10"}/>
-                    <img src={m11} alt={"m11"}/>
                     <img src={m12} alt={"m12"}/>
                     <img src={m13} alt={"m13"}/>
                     <img src={m14} alt={"m14"}/>
