@@ -3,10 +3,12 @@ import Sidebar from '../layouts/sidebar'
 
 import intro from '../content/photo/self/intro.jpg'
 import m1 from '../content/photo/self/1.jpg'
+import train from '../content/photo/self/train.jpg'
 import m2 from '../content/photo/self/2.jpg'
 import m3 from '../content/photo/self/3.jpg'
 import m4 from '../content/photo/self/4.jpg'
 import m5 from '../content/photo/self/5.jpg'
+import traffic from '../content/photo/self/traffic.jpg'
 import m6 from '../content/photo/self/6.jpg'
 import m7 from '../content/photo/self/7.jpg'
 import m8 from '../content/photo/self/8.jpg'
@@ -31,8 +33,10 @@ export default class Green extends React.Component {
                     <img src={m1} alt={"m1"}/>
                     <img src={m2} alt={"m2"}/>
                     <img src={m3} alt={"m3"}/>
+                    <img src={train} alt={"train"}/>
                     <img src={m4} alt={"m4"}/>
                     <img src={m5} alt={"m5"}/>
+                    <img src={traffic} alt={"traffic"}/>
                     <img src={m6} alt={"m6"}/>
                     <img src={m7} alt={"m7"}/>
                     <img src={m8} alt={"m8"}/>
