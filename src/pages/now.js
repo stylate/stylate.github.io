@@ -19,7 +19,7 @@ export default class Now extends React.Component {
 
             <h1>/now</h1>
 
-            <p>currently redoing this whole website. see you in a whole month. check out my progress at <a href="https://github.com/stylate/portfolio">this repo</a>.</p>
+            <p>currently redoing this whole website. see you in a month from now. check out my progress <a href="https://github.com/stylate/portfolio">here</a>.</p>
             </CSSTransitionGroup>
             </div>
         </div>
