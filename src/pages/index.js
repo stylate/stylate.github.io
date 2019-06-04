@@ -16,7 +16,6 @@ export default class IndexPage extends React.Component {
 
         return (
             <div className="container">
-            <Sidebar/>
             <div className="home-wrapper">
             <CSSTransitionGroup
         transitionName="fade"
@@ -24,10 +23,10 @@ export default class IndexPage extends React.Component {
         transitionAppearTimeout={500}
         transitionEnter={false}
         transitionLeave={false}>
-
             <h2>alan nguyen—</h2>
-            <p> hello! i'm currently a fourth year undergrad at UC Berkeley studying computer science. my passions lie in intersecting technology and media of all sorts. <br/><br/></p>
-            <Icons/>
+            <p>currently redoing this whole website. see you in a month from now. check out my progress <a href="https://github.com/stylate/portfolio">here</a>.</p>
+            <p>also currently interning as a software engineer @ <a href="https://www.akamai.com/">akamai</a>.</p>
+            <br/>
         </CSSTransitionGroup>
             </div>
             </div>
