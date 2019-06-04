@@ -114,6 +114,7 @@ a:hover {color:#FFD1DC;}
 		letter-spacing: 0.013em;
 		padding-bottom: 3.125em;
 		width: 17em;
+        margin-bottom: -12%;
 	}
 
 	h2 {
@@ -200,6 +201,7 @@ a:hover {color:#FFD1DC;}
 		font-size: 4vw;
 		letter-spacing: 0.013em;
         width: 20em;
+        margin-bottom: -12%;
 	}
 
 	h2 {
@@ -343,6 +345,13 @@ a:hover {color:#FFD1DC;}
         margin-top: 40%;
 		margin-left: -10%;
 		overflow: hidden;
+
+        p {
+            font-size: 1.5vw;
+            width: 20em;
+		    letter-spacing: 0.013em;
+	        margin-bottom: -12%;
+        }
 	}
 
     .wrapper-img {
