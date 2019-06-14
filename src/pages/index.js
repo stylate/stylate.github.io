@@ -27,6 +27,7 @@ export default class IndexPage extends React.Component {
             <p>currently redoing this whole website. see you in a month from now. check out my progress <a href="https://github.com/stylate/portfolio">here</a>.</p>
             <p>also currently interning as a software engineer @ <a href="https://www.akamai.com/">akamai</a>.</p>
             <br/>
+            <Icons/>
         </CSSTransitionGroup>
             </div>
             </div>
