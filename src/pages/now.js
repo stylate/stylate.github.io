@@ -22,7 +22,6 @@ export default class Now extends React.Component {
             <p>hello! i am currently redoing this website. see you in a month from now. check out my progress <a href="https://github.com/stylate/portfolio/tree/dev">here</a>. </p>
 
             <p>also currently interning as a software engineer @ <a href="https://www.akamai.com/">akamai</a>. </p>
-            <Icons />
             </CSSTransitionGroup>
             </div>
         </div>
