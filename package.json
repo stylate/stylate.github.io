@@ -15,7 +15,7 @@
     "gatsby-remark-prismjs": "^1.2.11",
     "gatsby-remark-responsive-iframe": "^1.4.16",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.26",
+    "gatsby-transformer-remark": "^5.25.1",
     "node-sass": "^4.11.0",
     "react-helmet": "^5.2.0",
     "react-lazyload": "^2.3.0",
